@@ -1,8 +1,8 @@
 'use client';
 
-import { useEffect, useRef } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import Link from 'next/link';
-import { ArrowLeft, ChevronLeft, ChevronRight } from 'lucide-react';
+import { ArrowLeft, ChevronLeft, ChevronRight, Maximize, Minimize } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { usePathname } from 'next/navigation';
 import config from '@/constants/config.json';
@@ -11,9 +11,13 @@ export default function ChapterNavbar() {
   const pathname = usePathname();
   const barRef = useRef<HTMLDivElement>(null);
   const chapter = pathname.split('/').pop() ?? 'Unknown';
-  const volume = config[0]?.volumes?.find(vol => 
+  const manga = config.find(mang => mang.id === pathname.split('/')[2]);
+  const volume = manga?.volumes?.find(vol =>
     vol.chapters?.some(chap => chap.id === Number(chapter))
-  )?.id ?? 0;
+  );
+  const chapterTitle = volume?.chapters?.find(chap => chap.id === Number(chapter))?.title;
+
+  const [isFullscreen, setIsFullscreen] = useState(false);
 
   useEffect(() => {
     function update() {
@@ -37,30 +41,56 @@ export default function ChapterNavbar() {
     };
   }, []);
 
+  const toggleFullscreen = () => {
+    if (!document.fullscreenElement) {
+      document.documentElement.requestFullscreen();
+      setIsFullscreen(true);
+    } else {
+      document.exitFullscreen();
+      setIsFullscreen(false);
+    }
+  };
+
   return (
     <>
-      <div className="grid grid-cols-3">
-				<Link href={`${pathname.split('/').slice(0,-2).join("/")}#volume-${volume}`}>
-					<Button>
-            <ArrowLeft className="w-4 h-4 mr-1" />
-            <span className="hidden md:block">Back to Chapters</span>
-            <span className="block md:hidden">Back</span>
+      <div className="grid grid-cols-12">
+        <div className="col-span-8 inline-flex items-center gap-8">
+          <Link href={`${pathname.split('/').slice(0, -2).join("/")}#volume-${volume?.id}`}>
+            <Button size="sm">
+              <ArrowLeft className="w-4 h-4 mr-1" />
+              <span className="hidden md:block">Back to Chapters</span>
+              <span className="block md:hidden">Back</span>
             </Button>
-				</Link>
-				<div className="font-bold text-2xl text-center">Chapter {chapter}</div>
-				<div className="flex gap-2 justify-end">
-					<Link href={`/chapter/${Number(chapter) - 1}`}>
-						<Button>
-							<ChevronLeft />
-						</Button>
-					</Link>
-					<Link href={`/chapter/${Number(chapter) + 1}`}>
-						<Button>
-							<ChevronRight />
-						</Button>
-					</Link>
-				</div>
-			</div>
+          </Link>
+          <div className="flex flex-col lg:flex-row gap-1 items-start text-sm lg:text-lg lg:gap-2 leading-none">
+            <h1 className="font-semibold">
+              {manga?.title}
+            </h1>
+            <p className="inline-flex items-center gap-1 text-muted-foreground">
+              <span className="hidden lg:block">Chapter</span>
+              <span className="lg:hidden">Ch</span>
+              {chapter}: {chapterTitle}
+            </p>
+          </div>
+        </div>
+        <div className="flex gap-1 justify-end items-center col-span-4">
+          <div className="flex items-center gap-1 mr-2">
+            <Button size="sm" onClick={toggleFullscreen} className="text-white hover:bg-gray-800">
+              {isFullscreen ? <Minimize className="w-4 h-4" /> : <Maximize className="w-4 h-4" />}
+            </Button>
+          </div>
+          <Link href={`/chapter/${Number(chapter) - 1}`}>
+            <Button size="sm">
+              <ChevronLeft />
+            </Button>
+          </Link>
+          <Link href={`/chapter/${Number(chapter) + 1}`}>
+            <Button size="sm">
+              <ChevronRight />
+            </Button>
+          </Link>
+        </div>
+      </div>
 
       <div
         ref={barRef}
@@ -69,5 +99,5 @@ export default function ChapterNavbar() {
         aria-hidden
       />
     </>
-  )
+  );
 }
