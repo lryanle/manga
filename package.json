@@ -3,10 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "concurrently \"npm run next-dev\" \"npm run python-build\"",
+    "dev": "npm run next-dev",
     "next-dev": "next dev --turbopack",
     "python-build": "pip3 install -r requirements.txt && python3 scraper/jjk-scraper.py",
-    "build": "concurrently \"next build\" \"npm run python-build\"",
+    "build": "npm run python-build && next build",
     "start": "next start",
     "lint": "next lint"
   },

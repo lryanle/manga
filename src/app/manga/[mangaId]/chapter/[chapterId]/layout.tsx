@@ -9,13 +9,14 @@ interface ChapterProps {
 }
 
 export default async function ChapterLayout({ children, params }: ChapterProps) {
-	const chapter = Number((await params).chapterId);
+	const chapterId = Number((await params).chapterId);
+	const mangaId = (await params).mangaId;
 
 	return (
 		<div className="w-full">
 			<main>
 				{children}
-				<KeyboardNav current={chapter} />
+				<KeyboardNav chapterId={chapterId} mangaId={mangaId} />
 			</main>
 		</div>
 	);

@@ -15,7 +15,8 @@
 				"chapters": [
 					{
 						"id": 0,
-						"title": "Prelogue"
+						"title": "Prelogue",
+						"pages": 193
 					}
 				]
 			},
@@ -26,31 +27,38 @@
 				"chapters": [
 					{
 						"id": 1,
-						"title": "Ryomen Sukuna"
+						"title": "Ryomen Sukuna",
+						"pages": 57
 					},
 					{
 						"id": 2,
-						"title": "Secret Execution"
+						"title": "Secret Execution",
+						"pages": 20
 					},
 					{
 						"id": 3,
-						"title": "For Myself"
+						"title": "For Myself",
+						"pages": 23
 					},
 					{
 						"id": 4,
-						"title": "Girl of Steel"
+						"title": "Girl of Steel",
+						"pages": 20
 					},
 					{
 						"id": 5,
-						"title": "Start"
+						"title": "Start",
+						"pages": 19
 					},
 					{
 						"id": 6,
-						"title": "Fearsome Womb"
+						"title": "Fearsome Womb",
+						"pages": 19
 					},
 					{
 						"id": 7,
-						"title": "Fearsome Womb, Part 2"
+						"title": "Fearsome Womb, Part 2",
+						"pages": 19
 					}
 				]
 			},
@@ -61,39 +69,48 @@
 				"chapters": [
 					{
 						"id": 8,
-						"title": "Fearsome Womb, Part 3"
+						"title": "Fearsome Womb, Part 3",
+						"pages": 24
 					},
 					{
 						"id": 9,
-						"title": "Fearsome Womb, Part 4"
+						"title": "Fearsome Womb, Part 4",
+						"pages": 21
 					},
 					{
 						"id": 10,
-						"title": "After the Rain"
+						"title": "After the Rain",
+						"pages": 20
 					},
 					{
 						"id": 11,
-						"title": "A Dream"
+						"title": "A Dream",
+						"pages": 20
 					},
 					{
 						"id": 12,
-						"title": "Pushing Forward"
+						"title": "Pushing Forward",
+						"pages": 20
 					},
 					{
 						"id": 13,
-						"title": "Watching Movies"
+						"title": "Watching Movies",
+						"pages": 19
 					},
 					{
 						"id": 14,
-						"title": "Assault"
+						"title": "Assault",
+						"pages": 19
 					},
 					{
 						"id": 15,
-						"title": "Domain"
+						"title": "Domain",
+						"pages": 18
 					},
 					{
 						"id": 16,
-						"title": "Affection"
+						"title": "Affection",
+						"pages": 25
 					}
 				]
 			},
@@ -104,39 +121,48 @@
 				"chapters": [
 					{
 						"id": 17,
-						"title": "Boring"
+						"title": "Boring",
+						"pages": 26
 					},
 					{
 						"id": 18,
-						"title": "Bottom"
+						"title": "Bottom",
+						"pages": 20
 					},
 					{
 						"id": 19,
-						"title": "Young Fish and Reverse Punishment"
+						"title": "Young Fish and Reverse Punishment",
+						"pages": 20
 					},
 					{
 						"id": 20,
-						"title": "Young Fish and Reverse Punishment, Part 2"
+						"title": "Young Fish and Reverse Punishment, Part 2",
+						"pages": 20
 					},
 					{
 						"id": 21,
-						"title": "Young Fish and Reverse Punishment, Part 3"
+						"title": "Young Fish and Reverse Punishment, Part 3",
+						"pages": 20
 					},
 					{
 						"id": 22,
-						"title": "Young Fish and Reverse Punishment, Part 4"
+						"title": "Young Fish and Reverse Punishment, Part 4",
+						"pages": 20
 					},
 					{
 						"id": 23,
-						"title": "Young Fish and Reverse Punishment, Part 5"
+						"title": "Young Fish and Reverse Punishment, Part 5",
+						"pages": 21
 					},
 					{
 						"id": 24,
-						"title": "Young Fish and Reverse Punishment, Part 6"
+						"title": "Young Fish and Reverse Punishment, Part 6",
+						"pages": 20
 					},
 					{
 						"id": 25,
-						"title": "Narrow-Minded"
+						"title": "Narrow-Minded",
+						"pages": 24
 					}
 				]
 			},
@@ -147,39 +173,48 @@
 				"chapters": [
 					{
 						"id": 26,
-						"title": "To You Someday"
+						"title": "To You Someday",
+						"pages": 25
 					},
 					{
 						"id": 27,
-						"title": "What If"
+						"title": "What If",
+						"pages": 19
 					},
 					{
 						"id": 28,
-						"title": "I'm Gonna Kill You!"
+						"title": "I'm Gonna Kill You!",
+						"pages": 22
 					},
 					{
 						"id": 29,
-						"title": "Growth"
+						"title": "Growth",
+						"pages": 19
 					},
 					{
 						"id": 30,
-						"title": "Selfishness"
+						"title": "Selfishness",
+						"pages": 19
 					},
 					{
 						"id": 31,
-						"title": "Tomorrow"
+						"title": "Tomorrow",
+						"pages": 21
 					},
 					{
 						"id": 32,
-						"title": "Introspection"
+						"title": "Introspection",
+						"pages": 21
 					},
 					{
 						"id": 33,
-						"title": "Kyoto Sister School Goodwill Event - Team Battle, Part 0"
+						"title": "Kyoto Sister School Goodwill Event - Team Battle, Part 0",
+						"pages": 19
 					},
 					{
 						"id": 34,
-						"title": "Kyoto Sister School Goodwill Event - Team Battle, Part 1"
+						"title": "Kyoto Sister School Goodwill Event - Team Battle, Part 1",
+						"pages": 22
 					}
 				]
 			},
@@ -190,39 +225,48 @@
 				"chapters": [
 					{
 						"id": 35,
-						"title": "Kyoto Sister School Goodwill Event - Team Battle, Part 2"
+						"title": "Kyoto Sister School Goodwill Event - Team Battle, Part 2",
+						"pages": 25
 					},
 					{
 						"id": 36,
-						"title": "Kyoto Sister School Goodwill Event - Team Battle, Part 3"
+						"title": "Kyoto Sister School Goodwill Event - Team Battle, Part 3",
+						"pages": 20
 					},
 					{
 						"id": 37,
-						"title": "Kyoto Sister School Goodwill Event - Team Battle, Part 4"
+						"title": "Kyoto Sister School Goodwill Event - Team Battle, Part 4",
+						"pages": 21
 					},
 					{
 						"id": 38,
-						"title": "Kyoto Sister School Goodwill Event - Team Battle, Part 5"
+						"title": "Kyoto Sister School Goodwill Event - Team Battle, Part 5",
+						"pages": 19
 					},
 					{
 						"id": 39,
-						"title": "Kyoto Sister School Goodwill Event - Team Battle, Part 6"
+						"title": "Kyoto Sister School Goodwill Event - Team Battle, Part 6",
+						"pages": 21
 					},
 					{
 						"id": 40,
-						"title": "Kyoto Sister School Goodwill Event - Team Battle, Part 7"
+						"title": "Kyoto Sister School Goodwill Event - Team Battle, Part 7",
+						"pages": 20
 					},
 					{
 						"id": 41,
-						"title": "Kyoto Sister School Goodwill Event - Team Battle, Part 8"
+						"title": "Kyoto Sister School Goodwill Event - Team Battle, Part 8",
+						"pages": 20
 					},
 					{
 						"id": 42,
-						"title": "Kyoto Sister School Goodwill Event - Team Battle, Part 9"
+						"title": "Kyoto Sister School Goodwill Event - Team Battle, Part 9",
+						"pages": 20
 					},
 					{
 						"id": 43,
-						"title": "Kyoto Sister School Goodwill Event - Team Battle, Part 10"
+						"title": "Kyoto Sister School Goodwill Event - Team Battle, Part 10",
+						"pages": 20
 					}
 				]
 			},
@@ -233,39 +277,48 @@
 				"chapters": [
 					{
 						"id": 44,
-						"title": "Kyoto Sister School Goodwill Event - Team Battle, Part 11"
+						"title": "Kyoto Sister School Goodwill Event - Team Battle, Part 11",
+						"pages": 25
 					},
 					{
 						"id": 45,
-						"title": "Sage"
+						"title": "Sage",
+						"pages": 19
 					},
 					{
 						"id": 46,
-						"title": "Time"
+						"title": "Time",
+						"pages": 22
 					},
 					{
 						"id": 47,
-						"title": "Cursed Tools"
+						"title": "Cursed Tools",
+						"pages": 18
 					},
 					{
 						"id": 48,
-						"title": "Black Flash"
+						"title": "Black Flash",
+						"pages": 19
 					},
 					{
 						"id": 49,
-						"title": "Constrained"
+						"title": "Constrained",
+						"pages": 22
 					},
 					{
 						"id": 50,
-						"title": "Feeling"
+						"title": "Feeling",
+						"pages": 19
 					},
 					{
 						"id": 51,
-						"title": "A Flower Offering"
+						"title": "A Flower Offering",
+						"pages": 20
 					},
 					{
 						"id": 52,
-						"title": "Nonstandard"
+						"title": "Nonstandard",
+						"pages": 17
 					}
 				]
 			},
@@ -276,39 +329,48 @@
 				"chapters": [
 					{
 						"id": 53,
-						"title": "Completion"
+						"title": "Completion",
+						"pages": 25
 					},
 					{
 						"id": 54,
-						"title": "Jujutsu Koshien"
+						"title": "Jujutsu Koshien",
+						"pages": 20
 					},
 					{
 						"id": 55,
-						"title": "The Origin of Obedience"
+						"title": "The Origin of Obedience",
+						"pages": 20
 					},
 					{
 						"id": 56,
-						"title": "The Origin of Obedience, Part 2"
+						"title": "The Origin of Obedience, Part 2",
+						"pages": 22
 					},
 					{
 						"id": 57,
-						"title": "The Origin of Obedience, Part 3"
+						"title": "The Origin of Obedience, Part 3",
+						"pages": 20
 					},
 					{
 						"id": 58,
-						"title": "The Origin of Obedience, Part 4"
+						"title": "The Origin of Obedience, Part 4",
+						"pages": 21
 					},
 					{
 						"id": 59,
-						"title": "The Origin of Obedience, Part 5"
+						"title": "The Origin of Obedience, Part 5",
+						"pages": 20
 					},
 					{
 						"id": 60,
-						"title": "The Origin of Obedience, Part 6"
+						"title": "The Origin of Obedience, Part 6",
+						"pages": 18
 					},
 					{
 						"id": 61,
-						"title": "The Origin of Obedience, Part 7"
+						"title": "The Origin of Obedience, Part 7",
+						"pages": 17
 					}
 				]
 			},
@@ -319,39 +381,48 @@
 				"chapters": [
 					{
 						"id": 62,
-						"title": "The Origin of Obedience, Part 8"
+						"title": "The Origin of Obedience, Part 8",
+						"pages": 25
 					},
 					{
 						"id": 63,
-						"title": "Accomplices"
+						"title": "Accomplices",
+						"pages": 22
 					},
 					{
 						"id": 64,
-						"title": "It's Like That"
+						"title": "It's Like That",
+						"pages": 20
 					},
 					{
 						"id": 65,
-						"title": "Hidden Inventory"
+						"title": "Hidden Inventory",
+						"pages": 22
 					},
 					{
 						"id": 66,
-						"title": "Hidden Inventory, Part 2"
+						"title": "Hidden Inventory, Part 2",
+						"pages": 20
 					},
 					{
 						"id": 67,
-						"title": "Hidden Inventory, Part 3"
+						"title": "Hidden Inventory, Part 3",
+						"pages": 20
 					},
 					{
 						"id": 68,
-						"title": "Hidden Inventory, Part 4"
+						"title": "Hidden Inventory, Part 4",
+						"pages": 18
 					},
 					{
 						"id": 69,
-						"title": "Hidden Inventory, Part 5"
+						"title": "Hidden Inventory, Part 5",
+						"pages": 19
 					},
 					{
 						"id": 70,
-						"title": "Hidden Inventory, Part 6"
+						"title": "Hidden Inventory, Part 6",
+						"pages": 19
 					}
 				]
 			},
@@ -362,39 +433,48 @@
 				"chapters": [
 					{
 						"id": 71,
-						"title": "Hidden Inventory, Part 7"
+						"title": "Hidden Inventory, Part 7",
+						"pages": 24
 					},
 					{
 						"id": 72,
-						"title": "Hidden Inventory, Part 8"
+						"title": "Hidden Inventory, Part 8",
+						"pages": 18
 					},
 					{
 						"id": 73,
-						"title": "Hidden Inventory, Part 9"
+						"title": "Hidden Inventory, Part 9",
+						"pages": 19
 					},
 					{
 						"id": 74,
-						"title": "Hidden Inventory, Part 10"
+						"title": "Hidden Inventory, Part 10",
+						"pages": 19
 					},
 					{
 						"id": 75,
-						"title": "Hidden Inventory, Part 11"
+						"title": "Hidden Inventory, Part 11",
+						"pages": 19
 					},
 					{
 						"id": 76,
-						"title": "Premature Death"
+						"title": "Premature Death",
+						"pages": 20
 					},
 					{
 						"id": 77,
-						"title": "Premature Death, Part 2"
+						"title": "Premature Death, Part 2",
+						"pages": 22
 					},
 					{
 						"id": 78,
-						"title": "Premature Death, Part 3"
+						"title": "Premature Death, Part 3",
+						"pages": 20
 					},
 					{
 						"id": 79,
-						"title": "A Taste of Things to Come"
+						"title": "A Taste of Things to Come",
+						"pages": 22
 					}
 				]
 			},
@@ -405,39 +485,48 @@
 				"chapters": [
 					{
 						"id": 80,
-						"title": "Evening Festival"
+						"title": "Evening Festival",
+						"pages": 24
 					},
 					{
 						"id": 81,
-						"title": "Evening Festival, Part 2"
+						"title": "Evening Festival, Part 2",
+						"pages": 17
 					},
 					{
 						"id": 82,
-						"title": "Evening Festival, Part 3"
+						"title": "Evening Festival, Part 3",
+						"pages": 19
 					},
 					{
 						"id": 83,
-						"title": "The Shibuya Incident, Part 1"
+						"title": "The Shibuya Incident, Part 1",
+						"pages": 19
 					},
 					{
 						"id": 84,
-						"title": "The Shibuya Incident, Part 2"
+						"title": "The Shibuya Incident, Part 2",
+						"pages": 17
 					},
 					{
 						"id": 85,
-						"title": "The Shibuya Incident, Part 3"
+						"title": "The Shibuya Incident, Part 3",
+						"pages": 22
 					},
 					{
 						"id": 86,
-						"title": "The Shibuya Incident, Part 4"
+						"title": "The Shibuya Incident, Part 4",
+						"pages": 20
 					},
 					{
 						"id": 87,
-						"title": "The Shibuya Incident, Part 5"
+						"title": "The Shibuya Incident, Part 5",
+						"pages": 18
 					},
 					{
 						"id": 88,
-						"title": "The Shibuya Incident, Part 6"
+						"title": "The Shibuya Incident, Part 6",
+						"pages": 21
 					}
 				]
 			},
@@ -448,39 +537,48 @@
 				"chapters": [
 					{
 						"id": 89,
-						"title": "The Shibuya Incident, Part 7"
+						"title": "The Shibuya Incident, Part 7",
+						"pages": 24
 					},
 					{
 						"id": 90,
-						"title": "The Shibuya Incident, Part 8"
+						"title": "The Shibuya Incident, Part 8",
+						"pages": 21
 					},
 					{
 						"id": 91,
-						"title": "The Shibuya Incident, Part 9"
+						"title": "The Shibuya Incident, Part 9",
+						"pages": 20
 					},
 					{
 						"id": 92,
-						"title": "The Shibuya Incident, Part 10"
+						"title": "The Shibuya Incident, Part 10",
+						"pages": 20
 					},
 					{
 						"id": 93,
-						"title": "The Shibuya Incident, Part 11"
+						"title": "The Shibuya Incident, Part 11",
+						"pages": 19
 					},
 					{
 						"id": 94,
-						"title": "The Shibuya Incident, Part 12"
+						"title": "The Shibuya Incident, Part 12",
+						"pages": 20
 					},
 					{
 						"id": 95,
-						"title": "The Shibuya Incident, Part 13"
+						"title": "The Shibuya Incident, Part 13",
+						"pages": 20
 					},
 					{
 						"id": 96,
-						"title": "The Shibuya Incident, Part 14"
+						"title": "The Shibuya Incident, Part 14",
+						"pages": 20
 					},
 					{
 						"id": 97,
-						"title": "The Shibuya Incident, Part 15"
+						"title": "The Shibuya Incident, Part 15",
+						"pages": 20
 					}
 				]
 			},
@@ -491,39 +589,48 @@
 				"chapters": [
 					{
 						"id": 98,
-						"title": "The Shibuya Incident, Part 16"
+						"title": "The Shibuya Incident, Part 16",
+						"pages": 26
 					},
 					{
 						"id": 99,
-						"title": "The Shibuya Incident, Part 17"
+						"title": "The Shibuya Incident, Part 17",
+						"pages": 19
 					},
 					{
 						"id": 100,
-						"title": "The Shibuya Incident, Part 18"
+						"title": "The Shibuya Incident, Part 18",
+						"pages": 22
 					},
 					{
 						"id": 101,
-						"title": "The Shibuya Incident, Part 19"
+						"title": "The Shibuya Incident, Part 19",
+						"pages": 18
 					},
 					{
 						"id": 102,
-						"title": "The Shibuya Incident, Part 20"
+						"title": "The Shibuya Incident, Part 20",
+						"pages": 22
 					},
 					{
 						"id": 103,
-						"title": "The Shibuya Incident, Part 21"
+						"title": "The Shibuya Incident, Part 21",
+						"pages": 20
 					},
 					{
 						"id": 104,
-						"title": "The Shibuya Incident, Part 22"
+						"title": "The Shibuya Incident, Part 22",
+						"pages": 19
 					},
 					{
 						"id": 105,
-						"title": "The Shibuya Incident, Part 23"
+						"title": "The Shibuya Incident, Part 23",
+						"pages": 20
 					},
 					{
 						"id": 106,
-						"title": "The Shibuya Incident, Part 24"
+						"title": "The Shibuya Incident, Part 24",
+						"pages": 21
 					}
 				]
 			},
@@ -534,39 +641,48 @@
 				"chapters": [
 					{
 						"id": 107,
-						"title": "The Shibuya Incident, Part 25"
+						"title": "The Shibuya Incident, Part 25",
+						"pages": 27
 					},
 					{
 						"id": 108,
-						"title": "The Shibuya Incident, Part 26"
+						"title": "The Shibuya Incident, Part 26",
+						"pages": 17
 					},
 					{
 						"id": 109,
-						"title": "The Shibuya Incident, Part 27"
+						"title": "The Shibuya Incident, Part 27",
+						"pages": 20
 					},
 					{
 						"id": 110,
-						"title": "The Shibuya Incident, Part 28"
+						"title": "The Shibuya Incident, Part 28",
+						"pages": 19
 					},
 					{
 						"id": 111,
-						"title": "The Shibuya Incident, Part 29"
+						"title": "The Shibuya Incident, Part 29",
+						"pages": 22
 					},
 					{
 						"id": 112,
-						"title": "The Shibuya Incident, Part 30"
+						"title": "The Shibuya Incident, Part 30",
+						"pages": 20
 					},
 					{
 						"id": 113,
-						"title": "The Shibuya Incident, Part 31"
+						"title": "The Shibuya Incident, Part 31",
+						"pages": 19
 					},
 					{
 						"id": 114,
-						"title": "The Shibuya Incident, Part 32"
+						"title": "The Shibuya Incident, Part 32",
+						"pages": 19
 					},
 					{
 						"id": 115,
-						"title": "The Shibuya Incident, Part 33"
+						"title": "The Shibuya Incident, Part 33",
+						"pages": 18
 					}
 				]
 			},
@@ -577,39 +693,48 @@
 				"chapters": [
 					{
 						"id": 116,
-						"title": "The Shibuya Incident, Part 34"
+						"title": "The Shibuya Incident, Part 34",
+						"pages": 23
 					},
 					{
 						"id": 117,
-						"title": "The Shibuya Incident, Part 35"
+						"title": "The Shibuya Incident, Part 35",
+						"pages": 20
 					},
 					{
 						"id": 118,
-						"title": "The Shibuya Incident, Part 36"
+						"title": "The Shibuya Incident, Part 36",
+						"pages": 18
 					},
 					{
 						"id": 119,
-						"title": "The Shibuya Incident, Part 37"
+						"title": "The Shibuya Incident, Part 37",
+						"pages": 16
 					},
 					{
 						"id": 120,
-						"title": "The Shibuya Incident, Part 38"
+						"title": "The Shibuya Incident, Part 38",
+						"pages": 18
 					},
 					{
 						"id": 121,
-						"title": "The Shibuya Incident, Part 39"
+						"title": "The Shibuya Incident, Part 39",
+						"pages": 19
 					},
 					{
 						"id": 122,
-						"title": "The Shibuya Incident, Part 40"
+						"title": "The Shibuya Incident, Part 40",
+						"pages": 20
 					},
 					{
 						"id": 123,
-						"title": "The Shibuya Incident, Part 41"
+						"title": "The Shibuya Incident, Part 41",
+						"pages": 23
 					},
 					{
 						"id": 124,
-						"title": "The Shibuya Incident, Part 42"
+						"title": "The Shibuya Incident, Part 42",
+						"pages": 18
 					}
 				]
 			},
@@ -620,39 +745,48 @@
 				"chapters": [
 					{
 						"id": 125,
-						"title": "A Story About that Girl"
+						"title": "A Story About that Girl",
+						"pages": 25
 					},
 					{
 						"id": 126,
-						"title": "The Shibuya Incident, Part 43"
+						"title": "The Shibuya Incident, Part 43",
+						"pages": 18
 					},
 					{
 						"id": 127,
-						"title": "The Shibuya Incident, Part 44"
+						"title": "The Shibuya Incident, Part 44",
+						"pages": 22
 					},
 					{
 						"id": 128,
-						"title": "The Shibuya Incident, Part 45"
+						"title": "The Shibuya Incident, Part 45",
+						"pages": 17
 					},
 					{
 						"id": 129,
-						"title": "The Shibuya Incident, Part 46"
+						"title": "The Shibuya Incident, Part 46",
+						"pages": 18
 					},
 					{
 						"id": 130,
-						"title": "The Shibuya Incident, Part 47"
+						"title": "The Shibuya Incident, Part 47",
+						"pages": 16
 					},
 					{
 						"id": 131,
-						"title": "The Shibuya Incident, Part 48"
+						"title": "The Shibuya Incident, Part 48",
+						"pages": 21
 					},
 					{
 						"id": 132,
-						"title": "The Shibuya Incident, Part 49"
+						"title": "The Shibuya Incident, Part 49",
+						"pages": 17
 					},
 					{
 						"id": 133,
-						"title": "The Shibuya Incident, Part 50"
+						"title": "The Shibuya Incident, Part 50",
+						"pages": 19
 					}
 				]
 			},
@@ -663,39 +797,48 @@
 				"chapters": [
 					{
 						"id": 134,
-						"title": "The Shibuya Incident, Part 51"
+						"title": "The Shibuya Incident, Part 51",
+						"pages": 25
 					},
 					{
 						"id": 135,
-						"title": "The Shibuya Incident, Part 52"
+						"title": "The Shibuya Incident, Part 52",
+						"pages": 17
 					},
 					{
 						"id": 136,
-						"title": "The Shibuya Incident, Part 53"
+						"title": "The Shibuya Incident, Part 53",
+						"pages": 19
 					},
 					{
 						"id": 137,
-						"title": "Hard and White"
+						"title": "Hard and White",
+						"pages": 21
 					},
 					{
 						"id": 138,
-						"title": "The Zenin Clan"
+						"title": "The Zenin Clan",
+						"pages": 20
 					},
 					{
 						"id": 139,
-						"title": "Hunter"
+						"title": "Hunter",
+						"pages": 19
 					},
 					{
 						"id": 140,
-						"title": "Execution"
+						"title": "Execution",
+						"pages": 20
 					},
 					{
 						"id": 141,
-						"title": "The Front of The Back"
+						"title": "The Front of The Back",
+						"pages": 20
 					},
 					{
 						"id": 142,
-						"title": "A Big Brother's Back"
+						"title": "A Big Brother's Back",
+						"pages": 22
 					}
 				]
 			},
@@ -706,43 +849,53 @@
 				"chapters": [
 					{
 						"id": 143,
-						"title": "One More Time"
+						"title": "One More Time",
+						"pages": 25
 					},
 					{
 						"id": 144,
-						"title": "That Place"
+						"title": "That Place",
+						"pages": 20
 					},
 					{
 						"id": 145,
-						"title": "The Back"
+						"title": "The Back",
+						"pages": 20
 					},
 					{
 						"id": 146,
-						"title": "About the Culling Game"
+						"title": "About the Culling Game",
+						"pages": 20
 					},
 					{
 						"id": 147,
-						"title": "Even Pandas"
+						"title": "Even Pandas",
+						"pages": 20
 					},
 					{
 						"id": 148,
-						"title": "Perfect Preparation"
+						"title": "Perfect Preparation",
+						"pages": 19
 					},
 					{
 						"id": 149,
-						"title": "Perfect Preparation, Part 2"
+						"title": "Perfect Preparation, Part 2",
+						"pages": 19
 					},
 					{
 						"id": 150,
-						"title": "Perfect Preparation, Part 3"
+						"title": "Perfect Preparation, Part 3",
+						"pages": 22
 					},
 					{
 						"id": 151,
-						"title": "Perfect Preparation, Part 4"
+						"title": "Perfect Preparation, Part 4",
+						"pages": 17
 					},
 					{
 						"id": 152,
-						"title": "Perfect Preparation, Epilogue"
+						"title": "Perfect Preparation, Epilogue",
+						"pages": 9
 					}
 				]
 			},
@@ -753,39 +906,48 @@
 				"chapters": [
 					{
 						"id": 153,
-						"title": "Underground Fight Club"
+						"title": "Underground Fight Club",
+						"pages": 25
 					},
 					{
 						"id": 154,
-						"title": "Sneaking In"
+						"title": "Sneaking In",
+						"pages": 20
 					},
 					{
 						"id": 155,
-						"title": "Fever"
+						"title": "Fever",
+						"pages": 20
 					},
 					{
 						"id": 156,
-						"title": "Twinkling Stars"
+						"title": "Twinkling Stars",
+						"pages": 20
 					},
 					{
 						"id": 157,
-						"title": "Cog"
+						"title": "Cog",
+						"pages": 20
 					},
 					{
 						"id": 158,
-						"title": "Kogane"
+						"title": "Kogane",
+						"pages": 20
 					},
 					{
 						"id": 159,
-						"title": "Judgement"
+						"title": "Judgement",
+						"pages": 19
 					},
 					{
 						"id": 160,
-						"title": "Colony"
+						"title": "Colony",
+						"pages": 17
 					},
 					{
 						"id": 161,
-						"title": "Tokyo No. 1 Colony, Part 1"
+						"title": "Tokyo No. 1 Colony, Part 1",
+						"pages": 21
 					}
 				]
 			},
@@ -796,43 +958,53 @@
 				"chapters": [
 					{
 						"id": 162,
-						"title": "Tokyo No. 1 Colony, Part 2"
+						"title": "Tokyo No. 1 Colony, Part 2",
+						"pages": 26
 					},
 					{
 						"id": 163,
-						"title": "Tokyo No. 1 Colony, Part 3"
+						"title": "Tokyo No. 1 Colony, Part 3",
+						"pages": 19
 					},
 					{
 						"id": 164,
-						"title": "Tokyo No. 1 Colony, Part 4"
+						"title": "Tokyo No. 1 Colony, Part 4",
+						"pages": 19
 					},
 					{
 						"id": 165,
-						"title": "Tokyo No. 1 Colony, Part 5"
+						"title": "Tokyo No. 1 Colony, Part 5",
+						"pages": 20
 					},
 					{
 						"id": 166,
-						"title": "Tokyo No. 1 Colony, Part 6"
+						"title": "Tokyo No. 1 Colony, Part 6",
+						"pages": 20
 					},
 					{
 						"id": 167,
-						"title": "Tokyo No. 1 Colony, Part 7"
+						"title": "Tokyo No. 1 Colony, Part 7",
+						"pages": 19
 					},
 					{
 						"id": 168,
-						"title": "Tokyo No. 1 Colony, Part 8"
+						"title": "Tokyo No. 1 Colony, Part 8",
+						"pages": 22
 					},
 					{
 						"id": 169,
-						"title": "Tokyo No. 1 Colony, Part 9"
+						"title": "Tokyo No. 1 Colony, Part 9",
+						"pages": 19
 					},
 					{
 						"id": 170,
-						"title": "Tokyo No. 1 Colony, Part 10"
+						"title": "Tokyo No. 1 Colony, Part 10",
+						"pages": 19
 					},
 					{
 						"id": 171,
-						"title": "Tokyo No. 1 Colony, Part 11"
+						"title": "Tokyo No. 1 Colony, Part 11",
+						"pages": 18
 					}
 				]
 			},
@@ -843,39 +1015,48 @@
 				"chapters": [
 					{
 						"id": 172,
-						"title": "Tokyo No. 1 Colony, Part 12"
+						"title": "Tokyo No. 1 Colony, Part 12",
+						"pages": 25
 					},
 					{
 						"id": 173,
-						"title": "Tokyo No. 1 Colony, Part 13"
+						"title": "Tokyo No. 1 Colony, Part 13",
+						"pages": 20
 					},
 					{
 						"id": 174,
-						"title": "Sendai Colony, Part 1"
+						"title": "Sendai Colony, Part 1",
+						"pages": 19
 					},
 					{
 						"id": 175,
-						"title": "Sendai Colony, Part 2"
+						"title": "Sendai Colony, Part 2",
+						"pages": 20
 					},
 					{
 						"id": 176,
-						"title": "Sendai Colony, Part 3"
+						"title": "Sendai Colony, Part 3",
+						"pages": 18
 					},
 					{
 						"id": 177,
-						"title": "Sendai Colony, Part 4"
+						"title": "Sendai Colony, Part 4",
+						"pages": 18
 					},
 					{
 						"id": 178,
-						"title": "Sendai Colony, Part 5"
+						"title": "Sendai Colony, Part 5",
+						"pages": 18
 					},
 					{
 						"id": 179,
-						"title": "Sendai Colony, Part 6"
+						"title": "Sendai Colony, Part 6",
+						"pages": 16
 					},
 					{
 						"id": 180,
-						"title": "Sendai Colony, Part 7"
+						"title": "Sendai Colony, Part 7",
+						"pages": 21
 					}
 				]
 			},
@@ -886,43 +1067,53 @@
 				"chapters": [
 					{
 						"id": 181,
-						"title": "Tokyo No. 2 Colony, Part 1"
+						"title": "Tokyo No. 2 Colony, Part 1",
+						"pages": 29
 					},
 					{
 						"id": 182,
-						"title": "Tokyo No. 2 Colony, Part 2"
+						"title": "Tokyo No. 2 Colony, Part 2",
+						"pages": 19
 					},
 					{
 						"id": 183,
-						"title": "Tokyo No. 2 Colony, Part 3"
+						"title": "Tokyo No. 2 Colony, Part 3",
+						"pages": 18
 					},
 					{
 						"id": 184,
-						"title": "Tokyo No. 2 Colony, Part 4"
+						"title": "Tokyo No. 2 Colony, Part 4",
+						"pages": 19
 					},
 					{
 						"id": 185,
-						"title": "Bye-bye"
+						"title": "Bye-bye",
+						"pages": 18
 					},
 					{
 						"id": 186,
-						"title": "Tokyo No. 2 Colony, Part 5"
+						"title": "Tokyo No. 2 Colony, Part 5",
+						"pages": 18
 					},
 					{
 						"id": 187,
-						"title": "Tokyo No. 2 Colony, Part 6"
+						"title": "Tokyo No. 2 Colony, Part 6",
+						"pages": 18
 					},
 					{
 						"id": 188,
-						"title": "Tokyo No. 2 Colony, Part 7"
+						"title": "Tokyo No. 2 Colony, Part 7",
+						"pages": 17
 					},
 					{
 						"id": 189,
-						"title": "Tokyo No. 2 Colony, Part 8"
+						"title": "Tokyo No. 2 Colony, Part 8",
+						"pages": 19
 					},
 					{
 						"id": 190,
-						"title": "Tokyo No. 2 Colony, Part 9"
+						"title": "Tokyo No. 2 Colony, Part 9",
+						"pages": 22
 					}
 				]
 			},
@@ -933,39 +1124,48 @@
 				"chapters": [
 					{
 						"id": 191,
-						"title": "Sakurajima Colony, Part 1"
+						"title": "Sakurajima Colony, Part 1",
+						"pages": 20
 					},
 					{
 						"id": 192,
-						"title": "Sakurajima Colony, Part 2"
+						"title": "Sakurajima Colony, Part 2",
+						"pages": 20
 					},
 					{
 						"id": 193,
-						"title": "Sakurajima Colony, Part 3"
+						"title": "Sakurajima Colony, Part 3",
+						"pages": 20
 					},
 					{
 						"id": 194,
-						"title": "Sakurajima Colony, Part 4"
+						"title": "Sakurajima Colony, Part 4",
+						"pages": 20
 					},
 					{
 						"id": 195,
-						"title": "Sakurajima Colony, Part 5"
+						"title": "Sakurajima Colony, Part 5",
+						"pages": 20
 					},
 					{
 						"id": 196,
-						"title": "Sakurajima Colony, Part 6"
+						"title": "Sakurajima Colony, Part 6",
+						"pages": 19
 					},
 					{
 						"id": 197,
-						"title": "Sakurajima Colony, Part 7"
+						"title": "Sakurajima Colony, Part 7",
+						"pages": 20
 					},
 					{
 						"id": 198,
-						"title": "Sakurajima Colony, Part 8"
+						"title": "Sakurajima Colony, Part 8",
+						"pages": 20
 					},
 					{
 						"id": 199,
-						"title": "Resentful Names"
+						"title": "Resentful Names",
+						"pages": 20
 					}
 				]
 			},
@@ -976,39 +1176,48 @@
 				"chapters": [
 					{
 						"id": 200,
-						"title": "Direct Talks, Part 1"
+						"title": "Direct Talks, Part 1",
+						"pages": 20
 					},
 					{
 						"id": 201,
-						"title": "Direct Talks, Part 2"
+						"title": "Direct Talks, Part 2",
+						"pages": 20
 					},
 					{
 						"id": 202,
-						"title": "Blood and Oil"
+						"title": "Blood and Oil",
+						"pages": 20
 					},
 					{
 						"id": 203,
-						"title": "Blood and Oil, Part 2"
+						"title": "Blood and Oil, Part 2",
+						"pages": 20
 					},
 					{
 						"id": 204,
-						"title": "Blood and Oil, Part 3"
+						"title": "Blood and Oil, Part 3",
+						"pages": 20
 					},
 					{
 						"id": 205,
-						"title": "Stars and Oil"
+						"title": "Stars and Oil",
+						"pages": 20
 					},
 					{
 						"id": 206,
-						"title": "Stars and Oil, Part 2"
+						"title": "Stars and Oil, Part 2",
+						"pages": 20
 					},
 					{
 						"id": 207,
-						"title": "Stars and Oil, Part 3"
+						"title": "Stars and Oil, Part 3",
+						"pages": 20
 					},
 					{
 						"id": 208,
-						"title": "Stars and Oil, Part 4"
+						"title": "Stars and Oil, Part 4",
+						"pages": 20
 					}
 				]
 			},
@@ -1019,39 +1228,48 @@
 				"chapters": [
 					{
 						"id": 209,
-						"title": "Offering to the Unknown"
+						"title": "Offering to the Unknown",
+						"pages": 20
 					},
 					{
 						"id": 210,
-						"title": "Offering to the Unknown, Part 2"
+						"title": "Offering to the Unknown, Part 2",
+						"pages": 19
 					},
 					{
 						"id": 211,
-						"title": "The Ripening"
+						"title": "The Ripening",
+						"pages": 19
 					},
 					{
 						"id": 212,
-						"title": "The Ripening, Part 2"
+						"title": "The Ripening, Part 2",
+						"pages": 19
 					},
 					{
 						"id": 213,
-						"title": "Fearsome Womb, Part 5"
+						"title": "Fearsome Womb, Part 5",
+						"pages": 19
 					},
 					{
 						"id": 214,
-						"title": "Fearsome Womb, Part 6"
+						"title": "Fearsome Womb, Part 6",
+						"pages": 19
 					},
 					{
 						"id": 215,
-						"title": "Fearsome Womb, Part 7"
+						"title": "Fearsome Womb, Part 7",
+						"pages": 22
 					},
 					{
 						"id": 216,
-						"title": "Bath"
+						"title": "Bath",
+						"pages": 19
 					},
 					{
 						"id": 217,
-						"title": "Bath, Part 2"
+						"title": "Bath, Part 2",
+						"pages": 20
 					}
 				]
 			},
@@ -1062,43 +1280,53 @@
 				"chapters": [
 					{
 						"id": 218,
-						"title": "Bath, Part 3"
+						"title": "Bath, Part 3",
+						"pages": 19
 					},
 					{
 						"id": 219,
-						"title": "Bath, Part 4"
+						"title": "Bath, Part 4",
+						"pages": 19
 					},
 					{
 						"id": 220,
-						"title": "Self-Purification, Self-Constraint"
+						"title": "Self-Purification, Self-Constraint",
+						"pages": 19
 					},
 					{
 						"id": 221,
-						"title": "Gain and Loss"
+						"title": "Gain and Loss",
+						"pages": 19
 					},
 					{
 						"id": 222,
-						"title": "Foretokens"
+						"title": "Foretokens",
+						"pages": 19
 					},
 					{
 						"id": 223,
-						"title": "Inhuman Makyo Shinjuku Showdown, Part 1"
+						"title": "Inhuman Makyo Shinjuku Showdown, Part 1",
+						"pages": 17
 					},
 					{
 						"id": 224,
-						"title": "Inhuman Makyo Shinjuku Showdown, Part 2"
+						"title": "Inhuman Makyo Shinjuku Showdown, Part 2",
+						"pages": 20
 					},
 					{
 						"id": 225,
-						"title": "Inhuman Makyo Shinjuku Showdown, Part 3"
+						"title": "Inhuman Makyo Shinjuku Showdown, Part 3",
+						"pages": 17
 					},
 					{
 						"id": 226,
-						"title": "Inhuman Makyo Shinjuku Showdown, Part 4"
+						"title": "Inhuman Makyo Shinjuku Showdown, Part 4",
+						"pages": 17
 					},
 					{
 						"id": 227,
-						"title": "Inhuman Makyo Shinjuku Showdown, Part 5"
+						"title": "Inhuman Makyo Shinjuku Showdown, Part 5",
+						"pages": 21
 					}
 				]
 			},
@@ -1109,39 +1337,48 @@
 				"chapters": [
 					{
 						"id": 228,
-						"title": "Inhuman Makyo Shinjuku Showdown, Part 6"
+						"title": "Inhuman Makyo Shinjuku Showdown, Part 6",
+						"pages": 18
 					},
 					{
 						"id": 229,
-						"title": "Inhuman Makyo Shinjuku Showdown, Part 7"
+						"title": "Inhuman Makyo Shinjuku Showdown, Part 7",
+						"pages": 17
 					},
 					{
 						"id": 230,
-						"title": "Inhuman Makyo Shinjuku Showdown, Part 8"
+						"title": "Inhuman Makyo Shinjuku Showdown, Part 8",
+						"pages": 18
 					},
 					{
 						"id": 231,
-						"title": "Inhuman Makyo Shinjuku Showdown, Part 9"
+						"title": "Inhuman Makyo Shinjuku Showdown, Part 9",
+						"pages": 18
 					},
 					{
 						"id": 232,
-						"title": "Inhuman Makyo Shinjuku Showdown, Part 10"
+						"title": "Inhuman Makyo Shinjuku Showdown, Part 10",
+						"pages": 18
 					},
 					{
 						"id": 233,
-						"title": "Inhuman Makyo Shinjuku Showdown, Part 11"
+						"title": "Inhuman Makyo Shinjuku Showdown, Part 11",
+						"pages": 18
 					},
 					{
 						"id": 234,
-						"title": "Inhuman Makyo Shinjuku Showdown, Part 12"
+						"title": "Inhuman Makyo Shinjuku Showdown, Part 12",
+						"pages": 18
 					},
 					{
 						"id": 235,
-						"title": "Inhuman Makyo Shinjuku Showdown, Part 13"
+						"title": "Inhuman Makyo Shinjuku Showdown, Part 13",
+						"pages": 18
 					},
 					{
 						"id": 236,
-						"title": "Heading South"
+						"title": "Heading South",
+						"pages": 17
 					}
 				]
 			},
@@ -1152,39 +1389,48 @@
 				"chapters": [
 					{
 						"id": 237,
-						"title": "Inhuman Makyo Shinjuku Showdown, Part 14"
+						"title": "Inhuman Makyo Shinjuku Showdown, Part 14",
+						"pages": 19
 					},
 					{
 						"id": 238,
-						"title": "Inhuman Makyo Shinjuku Showdown, Part 15"
+						"title": "Inhuman Makyo Shinjuku Showdown, Part 15",
+						"pages": 17
 					},
 					{
 						"id": 239,
-						"title": "Foolish Survivor!!"
+						"title": "Foolish Survivor!!",
+						"pages": 18
 					},
 					{
 						"id": 240,
-						"title": "Foolish Survivor —Live On—"
+						"title": "Foolish Survivor —Live On—",
+						"pages": 21
 					},
 					{
 						"id": 241,
-						"title": "Foolish Survivor —Win and Remain—"
+						"title": "Foolish Survivor —Win and Remain—",
+						"pages": 19
 					},
 					{
 						"id": 242,
-						"title": "Foolish Survivor —Flying High—"
+						"title": "Foolish Survivor —Flying High—",
+						"pages": 18
 					},
 					{
 						"id": 243,
-						"title": "Foolish Survivor —Laughing It Up—"
+						"title": "Foolish Survivor —Laughing It Up—",
+						"pages": 19
 					},
 					{
 						"id": 244,
-						"title": "Inhuman Makyo Shinjuku Showdown, Part 16"
+						"title": "Inhuman Makyo Shinjuku Showdown, Part 16",
+						"pages": 19
 					},
 					{
 						"id": 245,
-						"title": "Inhuman Makyo Shinjuku Showdown, Part 17"
+						"title": "Inhuman Makyo Shinjuku Showdown, Part 17",
+						"pages": 19
 					}
 				]
 			},
@@ -1195,39 +1441,48 @@
 				"chapters": [
 					{
 						"id": 246,
-						"title": "Inhuman Makyo Shinjuku Showdown, Part 18"
+						"title": "Inhuman Makyo Shinjuku Showdown, Part 18",
+						"pages": 22
 					},
 					{
 						"id": 247,
-						"title": "Inhuman Makyo Shinjuku Showdown, Part 19"
+						"title": "Inhuman Makyo Shinjuku Showdown, Part 19",
+						"pages": 19
 					},
 					{
 						"id": 248,
-						"title": "Inhuman Makyo Shinjuku Showdown, Part 20"
+						"title": "Inhuman Makyo Shinjuku Showdown, Part 20",
+						"pages": 19
 					},
 					{
 						"id": 249,
-						"title": "Inhuman Makyo Shinjuku Showdown, Part 21"
+						"title": "Inhuman Makyo Shinjuku Showdown, Part 21",
+						"pages": 19
 					},
 					{
 						"id": 250,
-						"title": "Inhuman Makyo Shinjuku Showdown, Part 22"
+						"title": "Inhuman Makyo Shinjuku Showdown, Part 22",
+						"pages": 19
 					},
 					{
 						"id": 251,
-						"title": "Inhuman Makyo Shinjuku Showdown, Part 23"
+						"title": "Inhuman Makyo Shinjuku Showdown, Part 23",
+						"pages": 19
 					},
 					{
 						"id": 252,
-						"title": "Inhuman Makyo Shinjuku Showdown, Part 24"
+						"title": "Inhuman Makyo Shinjuku Showdown, Part 24",
+						"pages": 17
 					},
 					{
 						"id": 253,
-						"title": "Inhuman Makyo Shinjuku Showdown, Part 25"
+						"title": "Inhuman Makyo Shinjuku Showdown, Part 25",
+						"pages": 19
 					},
 					{
 						"id": 254,
-						"title": "Inhuman Makyo Shinjuku Showdown, Part 26"
+						"title": "Inhuman Makyo Shinjuku Showdown, Part 26",
+						"pages": 18
 					}
 				]
 			},
@@ -1238,39 +1493,48 @@
 				"chapters": [
 					{
 						"id": 255,
-						"title": "Inhuman Makyo Shinjuku Showdown, Part 27"
+						"title": "Inhuman Makyo Shinjuku Showdown, Part 27",
+						"pages": 20
 					},
 					{
 						"id": 256,
-						"title": "Inhuman Makyo Shinjuku Showdown, Part 28"
+						"title": "Inhuman Makyo Shinjuku Showdown, Part 28",
+						"pages": 19
 					},
 					{
 						"id": 257,
-						"title": "Inhuman Makyo Shinjuku Showdown, Part 29"
+						"title": "Inhuman Makyo Shinjuku Showdown, Part 29",
+						"pages": 19
 					},
 					{
 						"id": 258,
-						"title": "Inhuman Makyo Shinjuku Showdown, Part 30"
+						"title": "Inhuman Makyo Shinjuku Showdown, Part 30",
+						"pages": 14
 					},
 					{
 						"id": 259,
-						"title": "Inhuman Makyo Shinjuku Showdown, Part 31"
+						"title": "Inhuman Makyo Shinjuku Showdown, Part 31",
+						"pages": 16
 					},
 					{
 						"id": 260,
-						"title": "Inhuman Makyo Shinjuku Showdown, Part 32"
+						"title": "Inhuman Makyo Shinjuku Showdown, Part 32",
+						"pages": 17
 					},
 					{
 						"id": 261,
-						"title": "Inhuman Makyo Shinjuku Showdown, Part 33"
+						"title": "Inhuman Makyo Shinjuku Showdown, Part 33",
+						"pages": 16
 					},
 					{
 						"id": 262,
-						"title": "Inhuman Makyo Shinjuku Showdown, Part 34"
+						"title": "Inhuman Makyo Shinjuku Showdown, Part 34",
+						"pages": 8
 					},
 					{
 						"id": 263,
-						"title": "Inhuman Makyo Shinjuku Showdown, Part 35"
+						"title": "Inhuman Makyo Shinjuku Showdown, Part 35",
+						"pages": 17
 					}
 				]
 			},
@@ -1281,39 +1545,48 @@
 				"chapters": [
 					{
 						"id": 264,
-						"title": "Inhuman Makyo Shinjuku Showdown, Part 36"
+						"title": "Inhuman Makyo Shinjuku Showdown, Part 36",
+						"pages": 19
 					},
 					{
 						"id": 265,
-						"title": "That Day"
+						"title": "That Day",
+						"pages": 19
 					},
 					{
 						"id": 266,
-						"title": "Inhuman Makyo Shinjuku Showdown, Part 37"
+						"title": "Inhuman Makyo Shinjuku Showdown, Part 37",
+						"pages": 19
 					},
 					{
 						"id": 267,
-						"title": "Inhuman Makyo Shinjuku Showdown, Part 38"
+						"title": "Inhuman Makyo Shinjuku Showdown, Part 38",
+						"pages": 19
 					},
 					{
 						"id": 268,
-						"title": "Settling Matters"
+						"title": "Settling Matters",
+						"pages": 18
 					},
 					{
 						"id": 269,
-						"title": "Considerations"
+						"title": "Considerations",
+						"pages": 18
 					},
 					{
 						"id": 270,
-						"title": "The End of the Dream"
+						"title": "The End of the Dream",
+						"pages": 19
 					},
 					{
 						"id": 271,
-						"title": "From Now On"
+						"title": "From Now On",
+						"pages": 20
 					},
 					{
 						"id": 272,
-						"title": "Epilogue"
+						"title": "Epilogue",
+						"pages": 24
 					}
 				]
 			}

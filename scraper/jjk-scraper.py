@@ -37,7 +37,7 @@ def download_image(url, save_path):
     except Exception as e:
         logging.error(f"Failed to download image {url}: {e}")
 
-for chapter_num in tqdm(range(CHAPTER_MIN, CHAPTER_MAX), desc="Downloading Chapters"):
+for chapter_num in tqdm(range(CHAPTER_MIN, CHAPTER_MAX+1), desc="Downloading Chapters"):
     try:
         chapter_url = BASE_URL.format(chapter_num)
         response = requests.get(chapter_url, headers=HEADERS, timeout=10)

@@ -79,12 +79,12 @@ export default function ChapterNavbar() {
               {isFullscreen ? <Minimize className="w-4 h-4" /> : <Maximize className="w-4 h-4" />}
             </Button>
           </div>
-          <Link href={`/chapter/${Number(chapter) - 1}`}>
+          <Link href={`/manga/${manga?.id}/chapter/${Number(chapter) - 1}`}>
             <Button size="sm">
               <ChevronLeft />
             </Button>
           </Link>
-          <Link href={`/chapter/${Number(chapter) + 1}`}>
+          <Link href={`/manga/${manga?.id}/chapter/${Number(chapter) + 1}`}>
             <Button size="sm">
               <ChevronRight />
             </Button>

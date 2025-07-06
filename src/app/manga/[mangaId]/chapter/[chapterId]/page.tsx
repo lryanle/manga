@@ -1,6 +1,5 @@
-import fs from "fs";
-import path from "path";
 import { Suspense } from "react";
+import configData from "@/constants/config.json";
 
 interface PageProps {
   params: Promise<{
@@ -10,40 +9,22 @@ interface PageProps {
 }
 
 export default async function ChapterPage({ params }: PageProps) {
-  const chapter = Number((await params).chapterId)
-  let images: string[] = [];
-
-  const chapterImages = async () => {
-    try {
-      const manifestPath = path.join(process.cwd(), 'public', 'manga', (await params).mangaId, `chapter-${chapter}`, 'manifest.json');
-
-      if (!fs.existsSync(manifestPath)) {
-        console.error(`Manifest file not found at ${manifestPath}`);
-        return [];
-      }
-      
-      const manifestContent = fs.readFileSync(manifestPath, 'utf8');
-      const manifestData = JSON.parse(manifestContent);
-      
-      return manifestData.pages || [];
-    } catch (err) {
-      console.error(`Failed to load images for chapter ${chapter}:`, err);
-      return [];
-    }
-  };
-  
-  images = await chapterImages();
+  const chapterId = Number((await params).chapterId)
+  const mangaId = (await params).mangaId;
+  const pageCount = configData.find((manga) => manga.id === mangaId)?.volumes?.find(vol =>
+    vol.chapters?.some(chap => chap.id === chapterId)
+  )?.chapters?.find(chap => chap.id === chapterId)?.pages;
 
   return (
     <div className="flex flex-col items-center gap-4 px-4 py-6 max-w-3xl mx-auto">
         <Suspense fallback={"Loading..."}>
-      {images.map(async (img, idx) => (
+      {[...Array(pageCount).keys()].map(id => (
           // eslint-disable-next-line @next/next/no-img-element
           <img
             loading="lazy"
-            key={`ch-${chapter}-${idx}`}
-            src={`/manga/${(await params).mangaId}/chapter-${chapter}/${img}`}
-            alt={`Page ${idx + 1}`}
+            key={`ch-${chapterId}-${id+1}`}
+            src={`/manga/${mangaId}/chapter-${chapterId}/page-${String(id+1).padStart(3, "0")}.webp`}
+            alt={`Page ${id + 1}`}
             width={800}
             height={0}
             className="w-full h-auto rounded-lg border-2 shadow-lg"

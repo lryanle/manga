@@ -19,6 +19,7 @@ export type MangaVolume = {
 export type MangaChapter = {
   id: number;
   title: string;
+  pages: number;
 }
 
 export type MALStats = {
