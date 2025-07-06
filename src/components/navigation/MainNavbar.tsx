@@ -16,10 +16,10 @@ export default function MainNavbar() {
           lryanle &gt; manga
         </Link>
         <nav className="flex items-center space-x-6">
-          <Link href="/manga" className="text-sm font-medium hover:text-primary">
+          <Link href="/manga" className="text-sm font-medium hover:text-primary hidden md:block">
             Manga Library
           </Link>
-          <Link href="https://lryanle.com" className="text-sm font-medium hover:text-primary">
+          <Link href="https://lryanle.com" className="text-sm font-medium hover:text-primary hidden md:block">
             lryanle.com
           </Link>
           <BackButton />

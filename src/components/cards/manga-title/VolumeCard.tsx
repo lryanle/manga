@@ -22,13 +22,13 @@ export default function VolumeCard({ volume, manga, loading, rank, volumes }: Pr
   return (
     <Card key={volume.id} id={`volume-${volume.id}`}>
       <CardHeader>
-        <div className="flex items-start gap-4">
+        <div className="flex flex-col md:flex-row items-start gap-4">
           <Image
             src={volume.coverArt || "/placeholder.svg"}
             alt={volume.title}
             width={160}
             height={240}
-            className="rounded"
+            className="rounded object-cover w-full max-h-96 md:object-none md:w-auto md:max-h-none"
           />
           <div className="flex flex-col">
             <div>

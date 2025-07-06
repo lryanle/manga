@@ -1,5 +1,4 @@
 import mangaList from "@/constants/config.json"
-import MainNavbar from "@/components/navigation/MainNavbar";
 import TitleCard from "@/components/cards/manga-title/TitleCard";
 
 export default function BrowsePage() {
@@ -14,7 +13,7 @@ export default function BrowsePage() {
         </div>
 
         {/* Manga Grid */}
-        <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 grid-cols-4 gap-6">
+        <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 grid-cols-1 gap-6">
           {mangaList.map((manga) => (
             <TitleCard key={manga.id} manga={manga} />
           ))}

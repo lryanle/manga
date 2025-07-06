@@ -43,7 +43,8 @@ export default function ChapterNavbar() {
 				<Link href={`${pathname.split('/').slice(0,-2).join("/")}#volume-${volume}`}>
 					<Button>
             <ArrowLeft className="w-4 h-4 mr-1" />
-            Back to Chapters
+            <span className="hidden md:block">Back to Chapters</span>
+            <span className="block md:hidden">Back</span>
             </Button>
 				</Link>
 				<div className="font-bold text-2xl text-center">Chapter {chapter}</div>

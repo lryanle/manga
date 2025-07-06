@@ -34,14 +34,25 @@ export default function MangaPage({ params }: PageProps) {
 			<main className="container mx-auto px-4 py-8">
 				{/* Manga Info Section */}
 				<div className="grid grid-cols-1 lg:grid-cols-3 gap-8 mb-12">
-					<div className="lg:col-span-1">
+					<div className="lg:col-span-1 relative">
+						<div className="overflow-hidden rounded-lg relative lg:static">
 						<img
 							src={manga.coverArt || "/placeholder.svg"}
 							alt={manga.title}
 							width={400}
 							height={400}
-							className="w-96 h-120 object-cover mx-auto rounded-lg shadow-lg"
+							className="w-full h-64 lg:w-96 lg:h-120 object-cover mx-auto rounded-lg shadow-lg blur-xs lg:blur-none"
 						/>
+						</div>
+            <div className="absolute left-1/2 top-1/2 -translate-1/2 lg:hidden">
+              <img
+                src={manga.logo}
+                alt={manga.title + " logo"}
+                width={300}
+                height={400}
+                className="drop-shadow"
+              />
+            </div>
 					</div>
 
 					<div className="lg:col-span-2">
