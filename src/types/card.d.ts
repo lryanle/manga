@@ -1,4 +1,4 @@
-export type MangaCard = {
+export type MangaTitle = {
   id: string;
   title: string;
   coverArt: string;
@@ -6,6 +6,19 @@ export type MangaCard = {
   lastUpdated: string;
   description: string;
   mal_url: string; // MyAnimeList URL
+  volumes: MangaVolume[]
+}
+
+export type MangaVolume = {
+  id: number;
+  title: string;
+  coverArt: string;
+  chapters: MangaChapter[];
+}
+
+export type MangaChapter = {
+  id: number;
+  title: string;
 }
 
 export type MALStats = {

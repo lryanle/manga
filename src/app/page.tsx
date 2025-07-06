@@ -1,8 +1,3 @@
-import Link from "next/link"
-import Image from "next/image"
-import { Badge } from "@/components/ui/badge"
-import { Card, CardContent } from "@/components/ui/card"
-import { Calendar, Eye, Star } from "lucide-react"
 import mangaList from "@/constants/config.json"
 import MainNavbar from "@/components/navigation/MainNavbar";
 import TitleCard from "@/components/cards/manga-title/TitleCard";
@@ -10,7 +5,6 @@ import TitleCard from "@/components/cards/manga-title/TitleCard";
 export default function BrowsePage() {
   return (
     <div className="min-h-screen bg-background">
-      <MainNavbar />
 
       {/* Main Content */}
       <main className="container mx-auto px-4 py-8">

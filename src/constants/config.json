@@ -3,9 +3,1320 @@
 		"id": "jjk",
 		"title": "Jujutsu Kaisen",
 		"coverArt": "/cover/jjk/splash.jpg",
-    "logo": "/cover/jjk/logo.png",
+		"logo": "/cover/jjk/logo.png",
 		"lastUpdated": "2025-07-05T05:19:02Z",
 		"description": "Jujutsu Kaisen follows Yuji Itadori as he battles deadly Curses and uncovers dark secrets in a world where negative emotions fuel supernatural threats.",
-    "mal_url": "https://myanimelist.net/manga/113138/Jujutsu_Kaisen"
+		"mal_url": "https://myanimelist.net/manga/113138/Jujutsu_Kaisen",
+		"volumes": [
+			{
+				"id": 0,
+				"title": "Blinding Darkness",
+				"coverArt": "/cover/jjk/v0.webp",
+				"chapters": [
+					{
+						"id": 0,
+						"title": "Prelogue"
+					}
+				]
+			},
+			{
+				"id": 1,
+				"title": "Ryomen Sukuna",
+				"coverArt": "/cover/jjk/v1.webp",
+				"chapters": [
+					{
+						"id": 1,
+						"title": "Ryomen Sukuna"
+					},
+					{
+						"id": 2,
+						"title": "Secret Execution"
+					},
+					{
+						"id": 3,
+						"title": "For Myself"
+					},
+					{
+						"id": 4,
+						"title": "Girl of Steel"
+					},
+					{
+						"id": 5,
+						"title": "Start"
+					},
+					{
+						"id": 6,
+						"title": "Fearsome Womb"
+					},
+					{
+						"id": 7,
+						"title": "Fearsome Womb, Part 2"
+					}
+				]
+			},
+			{
+				"id": 2,
+				"title": "Fearsome Womb",
+				"coverArt": "/cover/jjk/v2.webp",
+				"chapters": [
+					{
+						"id": 8,
+						"title": "Fearsome Womb, Part 3"
+					},
+					{
+						"id": 9,
+						"title": "Fearsome Womb, Part 4"
+					},
+					{
+						"id": 10,
+						"title": "After the Rain"
+					},
+					{
+						"id": 11,
+						"title": "A Dream"
+					},
+					{
+						"id": 12,
+						"title": "Pushing Forward"
+					},
+					{
+						"id": 13,
+						"title": "Watching Movies"
+					},
+					{
+						"id": 14,
+						"title": "Assault"
+					},
+					{
+						"id": 15,
+						"title": "Domain"
+					},
+					{
+						"id": 16,
+						"title": "Affection"
+					}
+				]
+			},
+			{
+				"id": 3,
+				"title": "Young Fish and Reverse Punishment",
+				"coverArt": "/cover/jjk/v3.webp",
+				"chapters": [
+					{
+						"id": 17,
+						"title": "Boring"
+					},
+					{
+						"id": 18,
+						"title": "Bottom"
+					},
+					{
+						"id": 19,
+						"title": "Young Fish and Reverse Punishment"
+					},
+					{
+						"id": 20,
+						"title": "Young Fish and Reverse Punishment, Part 2"
+					},
+					{
+						"id": 21,
+						"title": "Young Fish and Reverse Punishment, Part 3"
+					},
+					{
+						"id": 22,
+						"title": "Young Fish and Reverse Punishment, Part 4"
+					},
+					{
+						"id": 23,
+						"title": "Young Fish and Reverse Punishment, Part 5"
+					},
+					{
+						"id": 24,
+						"title": "Young Fish and Reverse Punishment, Part 6"
+					},
+					{
+						"id": 25,
+						"title": "Narrow-Minded"
+					}
+				]
+			},
+			{
+				"id": 4,
+				"title": "I'm Gonna Kill You!",
+				"coverArt": "/cover/jjk/v4.webp",
+				"chapters": [
+					{
+						"id": 26,
+						"title": "To You Someday"
+					},
+					{
+						"id": 27,
+						"title": "What If"
+					},
+					{
+						"id": 28,
+						"title": "I'm Gonna Kill You!"
+					},
+					{
+						"id": 29,
+						"title": "Growth"
+					},
+					{
+						"id": 30,
+						"title": "Selfishness"
+					},
+					{
+						"id": 31,
+						"title": "Tomorrow"
+					},
+					{
+						"id": 32,
+						"title": "Introspection"
+					},
+					{
+						"id": 33,
+						"title": "Kyoto Sister School Goodwill Event - Team Battle, Part 0"
+					},
+					{
+						"id": 34,
+						"title": "Kyoto Sister School Goodwill Event - Team Battle, Part 1"
+					}
+				]
+			},
+			{
+				"id": 5,
+				"title": "Kyoto Sister School Goodwill Event",
+				"coverArt": "/cover/jjk/v5.webp",
+				"chapters": [
+					{
+						"id": 35,
+						"title": "Kyoto Sister School Goodwill Event - Team Battle, Part 2"
+					},
+					{
+						"id": 36,
+						"title": "Kyoto Sister School Goodwill Event - Team Battle, Part 3"
+					},
+					{
+						"id": 37,
+						"title": "Kyoto Sister School Goodwill Event - Team Battle, Part 4"
+					},
+					{
+						"id": 38,
+						"title": "Kyoto Sister School Goodwill Event - Team Battle, Part 5"
+					},
+					{
+						"id": 39,
+						"title": "Kyoto Sister School Goodwill Event - Team Battle, Part 6"
+					},
+					{
+						"id": 40,
+						"title": "Kyoto Sister School Goodwill Event - Team Battle, Part 7"
+					},
+					{
+						"id": 41,
+						"title": "Kyoto Sister School Goodwill Event - Team Battle, Part 8"
+					},
+					{
+						"id": 42,
+						"title": "Kyoto Sister School Goodwill Event - Team Battle, Part 9"
+					},
+					{
+						"id": 43,
+						"title": "Kyoto Sister School Goodwill Event - Team Battle, Part 10"
+					}
+				]
+			},
+			{
+				"id": 6,
+				"title": "Black Flash",
+				"coverArt": "/cover/jjk/v6.webp",
+				"chapters": [
+					{
+						"id": 44,
+						"title": "Kyoto Sister School Goodwill Event - Team Battle, Part 11"
+					},
+					{
+						"id": 45,
+						"title": "Sage"
+					},
+					{
+						"id": 46,
+						"title": "Time"
+					},
+					{
+						"id": 47,
+						"title": "Cursed Tools"
+					},
+					{
+						"id": 48,
+						"title": "Black Flash"
+					},
+					{
+						"id": 49,
+						"title": "Constrained"
+					},
+					{
+						"id": 50,
+						"title": "Feeling"
+					},
+					{
+						"id": 51,
+						"title": "A Flower Offering"
+					},
+					{
+						"id": 52,
+						"title": "Nonstandard"
+					}
+				]
+			},
+			{
+				"id": 7,
+				"title": "The Origin of Obedience",
+				"coverArt": "/cover/jjk/v7.webp",
+				"chapters": [
+					{
+						"id": 53,
+						"title": "Completion"
+					},
+					{
+						"id": 54,
+						"title": "Jujutsu Koshien"
+					},
+					{
+						"id": 55,
+						"title": "The Origin of Obedience"
+					},
+					{
+						"id": 56,
+						"title": "The Origin of Obedience, Part 2"
+					},
+					{
+						"id": 57,
+						"title": "The Origin of Obedience, Part 3"
+					},
+					{
+						"id": 58,
+						"title": "The Origin of Obedience, Part 4"
+					},
+					{
+						"id": 59,
+						"title": "The Origin of Obedience, Part 5"
+					},
+					{
+						"id": 60,
+						"title": "The Origin of Obedience, Part 6"
+					},
+					{
+						"id": 61,
+						"title": "The Origin of Obedience, Part 7"
+					}
+				]
+			},
+			{
+				"id": 8,
+				"title": "Hidden Inventory",
+				"coverArt": "/cover/jjk/v8.webp",
+				"chapters": [
+					{
+						"id": 62,
+						"title": "The Origin of Obedience, Part 8"
+					},
+					{
+						"id": 63,
+						"title": "Accomplices"
+					},
+					{
+						"id": 64,
+						"title": "It's Like That"
+					},
+					{
+						"id": 65,
+						"title": "Hidden Inventory"
+					},
+					{
+						"id": 66,
+						"title": "Hidden Inventory, Part 2"
+					},
+					{
+						"id": 67,
+						"title": "Hidden Inventory, Part 3"
+					},
+					{
+						"id": 68,
+						"title": "Hidden Inventory, Part 4"
+					},
+					{
+						"id": 69,
+						"title": "Hidden Inventory, Part 5"
+					},
+					{
+						"id": 70,
+						"title": "Hidden Inventory, Part 6"
+					}
+				]
+			},
+			{
+				"id": 9,
+				"title": "Premature Death",
+				"coverArt": "/cover/jjk/v9.webp",
+				"chapters": [
+					{
+						"id": 71,
+						"title": "Hidden Inventory, Part 7"
+					},
+					{
+						"id": 72,
+						"title": "Hidden Inventory, Part 8"
+					},
+					{
+						"id": 73,
+						"title": "Hidden Inventory, Part 9"
+					},
+					{
+						"id": 74,
+						"title": "Hidden Inventory, Part 10"
+					},
+					{
+						"id": 75,
+						"title": "Hidden Inventory, Part 11"
+					},
+					{
+						"id": 76,
+						"title": "Premature Death"
+					},
+					{
+						"id": 77,
+						"title": "Premature Death, Part 2"
+					},
+					{
+						"id": 78,
+						"title": "Premature Death, Part 3"
+					},
+					{
+						"id": 79,
+						"title": "A Taste of Things to Come"
+					}
+				]
+			},
+			{
+				"id": 10,
+				"title": "Evening Festival",
+				"coverArt": "/cover/jjk/v10.webp",
+				"chapters": [
+					{
+						"id": 80,
+						"title": "Evening Festival"
+					},
+					{
+						"id": 81,
+						"title": "Evening Festival, Part 2"
+					},
+					{
+						"id": 82,
+						"title": "Evening Festival, Part 3"
+					},
+					{
+						"id": 83,
+						"title": "The Shibuya Incident, Part 1"
+					},
+					{
+						"id": 84,
+						"title": "The Shibuya Incident, Part 2"
+					},
+					{
+						"id": 85,
+						"title": "The Shibuya Incident, Part 3"
+					},
+					{
+						"id": 86,
+						"title": "The Shibuya Incident, Part 4"
+					},
+					{
+						"id": 87,
+						"title": "The Shibuya Incident, Part 5"
+					},
+					{
+						"id": 88,
+						"title": "The Shibuya Incident, Part 6"
+					}
+				]
+			},
+			{
+				"id": 11,
+				"title": "The Shibuya IncidentーGate Openー",
+				"coverArt": "/cover/jjk/v11.webp",
+				"chapters": [
+					{
+						"id": 89,
+						"title": "The Shibuya Incident, Part 7"
+					},
+					{
+						"id": 90,
+						"title": "The Shibuya Incident, Part 8"
+					},
+					{
+						"id": 91,
+						"title": "The Shibuya Incident, Part 9"
+					},
+					{
+						"id": 92,
+						"title": "The Shibuya Incident, Part 10"
+					},
+					{
+						"id": 93,
+						"title": "The Shibuya Incident, Part 11"
+					},
+					{
+						"id": 94,
+						"title": "The Shibuya Incident, Part 12"
+					},
+					{
+						"id": 95,
+						"title": "The Shibuya Incident, Part 13"
+					},
+					{
+						"id": 96,
+						"title": "The Shibuya Incident, Part 14"
+					},
+					{
+						"id": 97,
+						"title": "The Shibuya Incident, Part 15"
+					}
+				]
+			},
+			{
+				"id": 12,
+				"title": "The Shibuya IncidentーSummonー",
+				"coverArt": "/cover/jjk/v12.webp",
+				"chapters": [
+					{
+						"id": 98,
+						"title": "The Shibuya Incident, Part 16"
+					},
+					{
+						"id": 99,
+						"title": "The Shibuya Incident, Part 17"
+					},
+					{
+						"id": 100,
+						"title": "The Shibuya Incident, Part 18"
+					},
+					{
+						"id": 101,
+						"title": "The Shibuya Incident, Part 19"
+					},
+					{
+						"id": 102,
+						"title": "The Shibuya Incident, Part 20"
+					},
+					{
+						"id": 103,
+						"title": "The Shibuya Incident, Part 21"
+					},
+					{
+						"id": 104,
+						"title": "The Shibuya Incident, Part 22"
+					},
+					{
+						"id": 105,
+						"title": "The Shibuya Incident, Part 23"
+					},
+					{
+						"id": 106,
+						"title": "The Shibuya Incident, Part 24"
+					}
+				]
+			},
+			{
+				"id": 13,
+				"title": "The Shibuya IncidentーThunderclapー",
+				"coverArt": "/cover/jjk/v13.webp",
+				"chapters": [
+					{
+						"id": 107,
+						"title": "The Shibuya Incident, Part 25"
+					},
+					{
+						"id": 108,
+						"title": "The Shibuya Incident, Part 26"
+					},
+					{
+						"id": 109,
+						"title": "The Shibuya Incident, Part 27"
+					},
+					{
+						"id": 110,
+						"title": "The Shibuya Incident, Part 28"
+					},
+					{
+						"id": 111,
+						"title": "The Shibuya Incident, Part 29"
+					},
+					{
+						"id": 112,
+						"title": "The Shibuya Incident, Part 30"
+					},
+					{
+						"id": 113,
+						"title": "The Shibuya Incident, Part 31"
+					},
+					{
+						"id": 114,
+						"title": "The Shibuya Incident, Part 32"
+					},
+					{
+						"id": 115,
+						"title": "The Shibuya Incident, Part 33"
+					}
+				]
+			},
+			{
+				"id": 14,
+				"title": "The Shibuya IncidentーRight and Wrongー",
+				"coverArt": "/cover/jjk/v14.webp",
+				"chapters": [
+					{
+						"id": 116,
+						"title": "The Shibuya Incident, Part 34"
+					},
+					{
+						"id": 117,
+						"title": "The Shibuya Incident, Part 35"
+					},
+					{
+						"id": 118,
+						"title": "The Shibuya Incident, Part 36"
+					},
+					{
+						"id": 119,
+						"title": "The Shibuya Incident, Part 37"
+					},
+					{
+						"id": 120,
+						"title": "The Shibuya Incident, Part 38"
+					},
+					{
+						"id": 121,
+						"title": "The Shibuya Incident, Part 39"
+					},
+					{
+						"id": 122,
+						"title": "The Shibuya Incident, Part 40"
+					},
+					{
+						"id": 123,
+						"title": "The Shibuya Incident, Part 41"
+					},
+					{
+						"id": 124,
+						"title": "The Shibuya Incident, Part 42"
+					}
+				]
+			},
+			{
+				"id": 15,
+				"title": "The Shibuya IncidentーTransformationー",
+				"coverArt": "/cover/jjk/v15.webp",
+				"chapters": [
+					{
+						"id": 125,
+						"title": "A Story About that Girl"
+					},
+					{
+						"id": 126,
+						"title": "The Shibuya Incident, Part 43"
+					},
+					{
+						"id": 127,
+						"title": "The Shibuya Incident, Part 44"
+					},
+					{
+						"id": 128,
+						"title": "The Shibuya Incident, Part 45"
+					},
+					{
+						"id": 129,
+						"title": "The Shibuya Incident, Part 46"
+					},
+					{
+						"id": 130,
+						"title": "The Shibuya Incident, Part 47"
+					},
+					{
+						"id": 131,
+						"title": "The Shibuya Incident, Part 48"
+					},
+					{
+						"id": 132,
+						"title": "The Shibuya Incident, Part 49"
+					},
+					{
+						"id": 133,
+						"title": "The Shibuya Incident, Part 50"
+					}
+				]
+			},
+			{
+				"id": 16,
+				"title": "The Shibuya IncidentーGate Closedー",
+				"coverArt": "/cover/jjk/v16.webp",
+				"chapters": [
+					{
+						"id": 134,
+						"title": "The Shibuya Incident, Part 51"
+					},
+					{
+						"id": 135,
+						"title": "The Shibuya Incident, Part 52"
+					},
+					{
+						"id": 136,
+						"title": "The Shibuya Incident, Part 53"
+					},
+					{
+						"id": 137,
+						"title": "Hard and White"
+					},
+					{
+						"id": 138,
+						"title": "The Zenin Clan"
+					},
+					{
+						"id": 139,
+						"title": "Hunter"
+					},
+					{
+						"id": 140,
+						"title": "Execution"
+					},
+					{
+						"id": 141,
+						"title": "The Front of The Back"
+					},
+					{
+						"id": 142,
+						"title": "A Big Brother's Back"
+					}
+				]
+			},
+			{
+				"id": 17,
+				"title": "Perfect Preparation",
+				"coverArt": "/cover/jjk/v17.webp",
+				"chapters": [
+					{
+						"id": 143,
+						"title": "One More Time"
+					},
+					{
+						"id": 144,
+						"title": "That Place"
+					},
+					{
+						"id": 145,
+						"title": "The Back"
+					},
+					{
+						"id": 146,
+						"title": "About the Culling Game"
+					},
+					{
+						"id": 147,
+						"title": "Even Pandas"
+					},
+					{
+						"id": 148,
+						"title": "Perfect Preparation"
+					},
+					{
+						"id": 149,
+						"title": "Perfect Preparation, Part 2"
+					},
+					{
+						"id": 150,
+						"title": "Perfect Preparation, Part 3"
+					},
+					{
+						"id": 151,
+						"title": "Perfect Preparation, Part 4"
+					},
+					{
+						"id": 152,
+						"title": "Perfect Preparation, Epilogue"
+					}
+				]
+			},
+			{
+				"id": 18,
+				"title": "Fever",
+				"coverArt": "/cover/jjk/v18.webp",
+				"chapters": [
+					{
+						"id": 153,
+						"title": "Underground Fight Club"
+					},
+					{
+						"id": 154,
+						"title": "Sneaking In"
+					},
+					{
+						"id": 155,
+						"title": "Fever"
+					},
+					{
+						"id": 156,
+						"title": "Twinkling Stars"
+					},
+					{
+						"id": 157,
+						"title": "Cog"
+					},
+					{
+						"id": 158,
+						"title": "Kogane"
+					},
+					{
+						"id": 159,
+						"title": "Judgement"
+					},
+					{
+						"id": 160,
+						"title": "Colony"
+					},
+					{
+						"id": 161,
+						"title": "Tokyo No. 1 Colony, Part 1"
+					}
+				]
+			},
+			{
+				"id": 19,
+				"title": "Tokyo No. 1 ColonyーAngry Manー",
+				"coverArt": "/cover/jjk/v19.webp",
+				"chapters": [
+					{
+						"id": 162,
+						"title": "Tokyo No. 1 Colony, Part 2"
+					},
+					{
+						"id": 163,
+						"title": "Tokyo No. 1 Colony, Part 3"
+					},
+					{
+						"id": 164,
+						"title": "Tokyo No. 1 Colony, Part 4"
+					},
+					{
+						"id": 165,
+						"title": "Tokyo No. 1 Colony, Part 5"
+					},
+					{
+						"id": 166,
+						"title": "Tokyo No. 1 Colony, Part 6"
+					},
+					{
+						"id": 167,
+						"title": "Tokyo No. 1 Colony, Part 7"
+					},
+					{
+						"id": 168,
+						"title": "Tokyo No. 1 Colony, Part 8"
+					},
+					{
+						"id": 169,
+						"title": "Tokyo No. 1 Colony, Part 9"
+					},
+					{
+						"id": 170,
+						"title": "Tokyo No. 1 Colony, Part 10"
+					},
+					{
+						"id": 171,
+						"title": "Tokyo No. 1 Colony, Part 11"
+					}
+				]
+			},
+			{
+				"id": 20,
+				"title": "Sendai Colony:ーThe Height of the Feastー",
+				"coverArt": "/cover/jjk/v20.webp",
+				"chapters": [
+					{
+						"id": 172,
+						"title": "Tokyo No. 1 Colony, Part 12"
+					},
+					{
+						"id": 173,
+						"title": "Tokyo No. 1 Colony, Part 13"
+					},
+					{
+						"id": 174,
+						"title": "Sendai Colony, Part 1"
+					},
+					{
+						"id": 175,
+						"title": "Sendai Colony, Part 2"
+					},
+					{
+						"id": 176,
+						"title": "Sendai Colony, Part 3"
+					},
+					{
+						"id": 177,
+						"title": "Sendai Colony, Part 4"
+					},
+					{
+						"id": 178,
+						"title": "Sendai Colony, Part 5"
+					},
+					{
+						"id": 179,
+						"title": "Sendai Colony, Part 6"
+					},
+					{
+						"id": 180,
+						"title": "Sendai Colony, Part 7"
+					}
+				]
+			},
+			{
+				"id": 21,
+				"title": "Tokyo No. 2 ColonyーIncredible Luckー",
+				"coverArt": "/cover/jjk/v21.webp",
+				"chapters": [
+					{
+						"id": 181,
+						"title": "Tokyo No. 2 Colony, Part 1"
+					},
+					{
+						"id": 182,
+						"title": "Tokyo No. 2 Colony, Part 2"
+					},
+					{
+						"id": 183,
+						"title": "Tokyo No. 2 Colony, Part 3"
+					},
+					{
+						"id": 184,
+						"title": "Tokyo No. 2 Colony, Part 4"
+					},
+					{
+						"id": 185,
+						"title": "Bye-bye"
+					},
+					{
+						"id": 186,
+						"title": "Tokyo No. 2 Colony, Part 5"
+					},
+					{
+						"id": 187,
+						"title": "Tokyo No. 2 Colony, Part 6"
+					},
+					{
+						"id": 188,
+						"title": "Tokyo No. 2 Colony, Part 7"
+					},
+					{
+						"id": 189,
+						"title": "Tokyo No. 2 Colony, Part 8"
+					},
+					{
+						"id": 190,
+						"title": "Tokyo No. 2 Colony, Part 9"
+					}
+				]
+			},
+			{
+				"id": 22,
+				"title": "Sakurajima ColonyーRebirthー",
+				"coverArt": "/cover/jjk/v22.webp",
+				"chapters": [
+					{
+						"id": 191,
+						"title": "Sakurajima Colony, Part 1"
+					},
+					{
+						"id": 192,
+						"title": "Sakurajima Colony, Part 2"
+					},
+					{
+						"id": 193,
+						"title": "Sakurajima Colony, Part 3"
+					},
+					{
+						"id": 194,
+						"title": "Sakurajima Colony, Part 4"
+					},
+					{
+						"id": 195,
+						"title": "Sakurajima Colony, Part 5"
+					},
+					{
+						"id": 196,
+						"title": "Sakurajima Colony, Part 6"
+					},
+					{
+						"id": 197,
+						"title": "Sakurajima Colony, Part 7"
+					},
+					{
+						"id": 198,
+						"title": "Sakurajima Colony, Part 8"
+					},
+					{
+						"id": 199,
+						"title": "Resentful Names"
+					}
+				]
+			},
+			{
+				"id": 23,
+				"title": "Stars and Oil",
+				"coverArt": "/cover/jjk/v23.webp",
+				"chapters": [
+					{
+						"id": 200,
+						"title": "Direct Talks, Part 1"
+					},
+					{
+						"id": 201,
+						"title": "Direct Talks, Part 2"
+					},
+					{
+						"id": 202,
+						"title": "Blood and Oil"
+					},
+					{
+						"id": 203,
+						"title": "Blood and Oil, Part 2"
+					},
+					{
+						"id": 204,
+						"title": "Blood and Oil, Part 3"
+					},
+					{
+						"id": 205,
+						"title": "Stars and Oil"
+					},
+					{
+						"id": 206,
+						"title": "Stars and Oil, Part 2"
+					},
+					{
+						"id": 207,
+						"title": "Stars and Oil, Part 3"
+					},
+					{
+						"id": 208,
+						"title": "Stars and Oil, Part 4"
+					}
+				]
+			},
+			{
+				"id": 24,
+				"title": "Fearsome WombーRecurrenceー",
+				"coverArt": "/cover/jjk/v24.webp",
+				"chapters": [
+					{
+						"id": 209,
+						"title": "Offering to the Unknown"
+					},
+					{
+						"id": 210,
+						"title": "Offering to the Unknown, Part 2"
+					},
+					{
+						"id": 211,
+						"title": "The Ripening"
+					},
+					{
+						"id": 212,
+						"title": "The Ripening, Part 2"
+					},
+					{
+						"id": 213,
+						"title": "Fearsome Womb, Part 5"
+					},
+					{
+						"id": 214,
+						"title": "Fearsome Womb, Part 6"
+					},
+					{
+						"id": 215,
+						"title": "Fearsome Womb, Part 7"
+					},
+					{
+						"id": 216,
+						"title": "Bath"
+					},
+					{
+						"id": 217,
+						"title": "Bath, Part 2"
+					}
+				]
+			},
+			{
+				"id": 25,
+				"title": "Inhuman Makyo Shinjuku Showdown",
+				"coverArt": "/cover/jjk/v25.webp",
+				"chapters": [
+					{
+						"id": 218,
+						"title": "Bath, Part 3"
+					},
+					{
+						"id": 219,
+						"title": "Bath, Part 4"
+					},
+					{
+						"id": 220,
+						"title": "Self-Purification, Self-Constraint"
+					},
+					{
+						"id": 221,
+						"title": "Gain and Loss"
+					},
+					{
+						"id": 222,
+						"title": "Foretokens"
+					},
+					{
+						"id": 223,
+						"title": "Inhuman Makyo Shinjuku Showdown, Part 1"
+					},
+					{
+						"id": 224,
+						"title": "Inhuman Makyo Shinjuku Showdown, Part 2"
+					},
+					{
+						"id": 225,
+						"title": "Inhuman Makyo Shinjuku Showdown, Part 3"
+					},
+					{
+						"id": 226,
+						"title": "Inhuman Makyo Shinjuku Showdown, Part 4"
+					},
+					{
+						"id": 227,
+						"title": "Inhuman Makyo Shinjuku Showdown, Part 5"
+					}
+				]
+			},
+			{
+				"id": 26,
+				"title": "Heading South",
+				"coverArt": "/cover/jjk/v26.webp",
+				"chapters": [
+					{
+						"id": 228,
+						"title": "Inhuman Makyo Shinjuku Showdown, Part 6"
+					},
+					{
+						"id": 229,
+						"title": "Inhuman Makyo Shinjuku Showdown, Part 7"
+					},
+					{
+						"id": 230,
+						"title": "Inhuman Makyo Shinjuku Showdown, Part 8"
+					},
+					{
+						"id": 231,
+						"title": "Inhuman Makyo Shinjuku Showdown, Part 9"
+					},
+					{
+						"id": 232,
+						"title": "Inhuman Makyo Shinjuku Showdown, Part 10"
+					},
+					{
+						"id": 233,
+						"title": "Inhuman Makyo Shinjuku Showdown, Part 11"
+					},
+					{
+						"id": 234,
+						"title": "Inhuman Makyo Shinjuku Showdown, Part 12"
+					},
+					{
+						"id": 235,
+						"title": "Inhuman Makyo Shinjuku Showdown, Part 13"
+					},
+					{
+						"id": 236,
+						"title": "Heading South"
+					}
+				]
+			},
+			{
+				"id": 27,
+				"title": "Foolish Survivor!!",
+				"coverArt": "/cover/jjk/v27.webp",
+				"chapters": [
+					{
+						"id": 237,
+						"title": "Inhuman Makyo Shinjuku Showdown, Part 14"
+					},
+					{
+						"id": 238,
+						"title": "Inhuman Makyo Shinjuku Showdown, Part 15"
+					},
+					{
+						"id": 239,
+						"title": "Foolish Survivor!!"
+					},
+					{
+						"id": 240,
+						"title": "Foolish Survivor —Live On—"
+					},
+					{
+						"id": 241,
+						"title": "Foolish Survivor —Win and Remain—"
+					},
+					{
+						"id": 242,
+						"title": "Foolish Survivor —Flying High—"
+					},
+					{
+						"id": 243,
+						"title": "Foolish Survivor —Laughing It Up—"
+					},
+					{
+						"id": 244,
+						"title": "Inhuman Makyo Shinjuku Showdown, Part 16"
+					},
+					{
+						"id": 245,
+						"title": "Inhuman Makyo Shinjuku Showdown, Part 17"
+					}
+				]
+			},
+			{
+				"id": 28,
+				"title": "Inhuman Makyo Shinjuku ShowdownーNine Principlesー",
+				"coverArt": "/cover/jjk/v28.webp",
+				"chapters": [
+					{
+						"id": 246,
+						"title": "Inhuman Makyo Shinjuku Showdown, Part 18"
+					},
+					{
+						"id": 247,
+						"title": "Inhuman Makyo Shinjuku Showdown, Part 19"
+					},
+					{
+						"id": 248,
+						"title": "Inhuman Makyo Shinjuku Showdown, Part 20"
+					},
+					{
+						"id": 249,
+						"title": "Inhuman Makyo Shinjuku Showdown, Part 21"
+					},
+					{
+						"id": 250,
+						"title": "Inhuman Makyo Shinjuku Showdown, Part 22"
+					},
+					{
+						"id": 251,
+						"title": "Inhuman Makyo Shinjuku Showdown, Part 23"
+					},
+					{
+						"id": 252,
+						"title": "Inhuman Makyo Shinjuku Showdown, Part 24"
+					},
+					{
+						"id": 253,
+						"title": "Inhuman Makyo Shinjuku Showdown, Part 25"
+					},
+					{
+						"id": 254,
+						"title": "Inhuman Makyo Shinjuku Showdown, Part 26"
+					}
+				]
+			},
+			{
+				"id": 29,
+				"title": "Inhuman Makyo Shinjuku ShowdownーLiving Deadー",
+				"coverArt": "/cover/jjk/v29.webp",
+				"chapters": [
+					{
+						"id": 255,
+						"title": "Inhuman Makyo Shinjuku Showdown, Part 27"
+					},
+					{
+						"id": 256,
+						"title": "Inhuman Makyo Shinjuku Showdown, Part 28"
+					},
+					{
+						"id": 257,
+						"title": "Inhuman Makyo Shinjuku Showdown, Part 29"
+					},
+					{
+						"id": 258,
+						"title": "Inhuman Makyo Shinjuku Showdown, Part 30"
+					},
+					{
+						"id": 259,
+						"title": "Inhuman Makyo Shinjuku Showdown, Part 31"
+					},
+					{
+						"id": 260,
+						"title": "Inhuman Makyo Shinjuku Showdown, Part 32"
+					},
+					{
+						"id": 261,
+						"title": "Inhuman Makyo Shinjuku Showdown, Part 33"
+					},
+					{
+						"id": 262,
+						"title": "Inhuman Makyo Shinjuku Showdown, Part 34"
+					},
+					{
+						"id": 263,
+						"title": "Inhuman Makyo Shinjuku Showdown, Part 35"
+					}
+				]
+			},
+			{
+				"id": 30,
+				"title": "From Now On",
+				"coverArt": "/cover/jjk/v30.webp",
+				"chapters": [
+					{
+						"id": 264,
+						"title": "Inhuman Makyo Shinjuku Showdown, Part 36"
+					},
+					{
+						"id": 265,
+						"title": "That Day"
+					},
+					{
+						"id": 266,
+						"title": "Inhuman Makyo Shinjuku Showdown, Part 37"
+					},
+					{
+						"id": 267,
+						"title": "Inhuman Makyo Shinjuku Showdown, Part 38"
+					},
+					{
+						"id": 268,
+						"title": "Settling Matters"
+					},
+					{
+						"id": 269,
+						"title": "Considerations"
+					},
+					{
+						"id": 270,
+						"title": "The End of the Dream"
+					},
+					{
+						"id": 271,
+						"title": "From Now On"
+					},
+					{
+						"id": 272,
+						"title": "Epilogue"
+					}
+				]
+			}
+		]
 	}
 ]

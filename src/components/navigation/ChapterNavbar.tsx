@@ -2,15 +2,18 @@
 
 import { useEffect, useRef } from 'react';
 import Link from 'next/link';
-import { ChevronLeft, ChevronRight } from 'lucide-react';
+import { ArrowLeft, ChevronLeft, ChevronRight } from 'lucide-react';
 import { Button } from '@/components/ui/button';
+import { usePathname } from 'next/navigation';
+import config from '@/constants/config.json';
 
-interface ChapterNavbarProps {
-  chapter: number
-}
-
-export default function ChapterNavbar({ chapter }: ChapterNavbarProps) {
+export default function ChapterNavbar() {
+  const pathname = usePathname();
   const barRef = useRef<HTMLDivElement>(null);
+  const chapter = pathname.split('/').pop() ?? 'Unknown';
+  const volume = config[0]?.volumes?.find(vol => 
+    vol.chapters?.some(chap => chap.id === Number(chapter))
+  )?.id ?? 0;
 
   useEffect(() => {
     function update() {
@@ -35,10 +38,13 @@ export default function ChapterNavbar({ chapter }: ChapterNavbarProps) {
   }, []);
 
   return (
-    <nav className="sticky top-0 z-40 w-full shadow-2xl p-4 bg-primary-foreground/70 backdrop-blur-lg">
+    <>
       <div className="grid grid-cols-3">
-				<Link href="/">
-					<Button>← Back to Chapters</Button>
+				<Link href={`${pathname.split('/').slice(0,-2).join("/")}#volume-${volume}`}>
+					<Button>
+            <ArrowLeft className="w-4 h-4 mr-1" />
+            Back to Chapters
+            </Button>
 				</Link>
 				<div className="font-bold text-2xl text-center">Chapter {chapter}</div>
 				<div className="flex gap-2 justify-end">
@@ -61,6 +67,6 @@ export default function ChapterNavbar({ chapter }: ChapterNavbarProps) {
         style={{ width: '0%' }}
         aria-hidden
       />
-    </nav>
+    </>
   )
 }

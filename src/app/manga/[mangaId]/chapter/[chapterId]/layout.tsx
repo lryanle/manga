@@ -13,7 +13,6 @@ export default async function ChapterLayout({ children, params }: ChapterProps) 
 
 	return (
 		<div className="w-full">
-			<ChapterNavbar chapter={chapter} />
 			<main>
 				{children}
 				<KeyboardNav current={chapter} />

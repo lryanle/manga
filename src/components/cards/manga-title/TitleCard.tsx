@@ -6,12 +6,12 @@ import { Skeleton } from "@/components/ui/skeleton";
 import { Tooltip, TooltipContent, TooltipTrigger } from "@/components/ui/tooltip";
 import { useMangaStats } from "@/hooks/use-manga-stats";
 import { cn } from "@/lib/utils";
-import type { MALStats, MangaCard } from "@/types/card";
+import type { MALStats, MangaTitle } from "@/types/card";
 import { Book, Calendar, Circle, CircleCheck, CircleMinus, Eye, Flame, Hash, Star, TableOfContents, Tag } from "lucide-react";
 import Link from "next/link";
 
 type TitleCardProps = {
-  manga: MangaCard;
+  manga: MangaTitle;
 };
 
 export default function TitleCard({ manga }: TitleCardProps) {
@@ -59,7 +59,7 @@ export default function TitleCard({ manga }: TitleCardProps) {
                   )}
                 </TooltipTrigger>
                 <TooltipContent side="bottom">
-                  <p>User score (out of 10)</p>
+                  <p>MAL reader score (out of 10)</p>
                 </TooltipContent>
               </Tooltip>
               <Tooltip>
@@ -126,7 +126,7 @@ export default function TitleCard({ manga }: TitleCardProps) {
                     </>
                   ) : (
                     <>
-                      {status.toLowerCase().includes("finished") ? (<CircleCheck strokeWidth={3} className="w-3 h-3 text-green-400" />) : <CircleMinus strokeWidth={3} className="w-3 h-3 text-yellow-400" />}
+                      {status.toLowerCase().includes("finished") ? (<CircleCheck strokeWidth={3} className="w-3 h-3 text-green-500" />) : <CircleMinus strokeWidth={3} className="w-3 h-3 text-yellow-400" />}
                       <span className="text-xs font-medium text-primary">{status}</span>
                     </>
                   )}

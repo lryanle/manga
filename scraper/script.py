@@ -5,6 +5,8 @@ import logging
 from bs4 import BeautifulSoup
 from tqdm import tqdm
 from concurrent.futures import ThreadPoolExecutor
+from PIL import Image
+import re
 
 
 logging.basicConfig(filename='jjk_download_errors.log', level=logging.ERROR, format='%(asctime)s - %(message)s')
@@ -69,12 +71,53 @@ for chapter_num in tqdm(range(CHAPTER_MIN, CHAPTER_MAX), desc="Downloading Chapt
             img_url = img_info.get("url")
             if not img_url:
                 continue
-            save_path = os.path.join(chapter_dir, f"page-{idx}.jpg")
-            download_tasks.append((img_url, save_path))
 
-        # Download all images concurrently
+            img_url = re.sub(r'-\d+x\d+(?=\.(jpg|jpeg|png|webp))', '', img_url, flags=re.IGNORECASE)
+
+            padded_filename = f"page-{idx:03}"
+            jpg_path = os.path.join(chapter_dir, f"{padded_filename}.jpg")
+            webp_path = os.path.join(chapter_dir, f"{padded_filename}.webp")
+
+            for ext in [".jpg", ".jpeg"]:
+                for old_idx in [idx, int(str(idx).lstrip("0") or "0")]:
+                    unpadded = os.path.join(chapter_dir, f"page-{old_idx}{ext}")
+                    if os.path.exists(unpadded) and not os.path.exists(jpg_path):
+                        os.rename(unpadded, jpg_path)
+
+            if os.path.exists(jpg_path):
+                try:
+                    with Image.open(jpg_path) as im:
+                        im.save(webp_path, "WEBP")
+                    os.remove(jpg_path)
+                except Exception as e:
+                    logging.error(f"Failed to convert {jpg_path} to .webp: {e}")
+                continue
+
+            download_tasks.append((img_url, jpg_path))
+
         with ThreadPoolExecutor(max_workers=10) as executor:
             executor.map(lambda args: download_image(*args), download_tasks)
+
+        for _, jpg_path in download_tasks:
+            if os.path.exists(jpg_path):
+                try:
+                    with Image.open(jpg_path) as im:
+                        webp_path = jpg_path.replace(".jpg", ".webp")
+                        im.save(webp_path, "WEBP")
+                    os.remove(jpg_path)
+                except Exception as e:
+                    logging.error(f"Failed to convert {jpg_path} to .webp: {e}")
+
+        manifest_path = os.path.join(chapter_dir, "manifest.json")
+        page_files = sorted(
+            [f for f in os.listdir(chapter_dir) if f.endswith(".webp")],
+            key=lambda name: int(name.split('-')[1].split('.')[0])
+        )
+        manifest = {
+            "pages": page_files
+        }
+        with open(manifest_path, 'w') as f:
+            json.dump(manifest, f, indent=2)
 
     except Exception as e:
         logging.error(f"Unexpected error in chapter {chapter_num}: {e}")
