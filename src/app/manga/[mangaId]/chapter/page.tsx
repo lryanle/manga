@@ -1,5 +1,5 @@
 import { redirect } from 'next/navigation';
 
-export default function MangaPage({ params }: { params: { mangaId: string } }) {
-  redirect(`/manga/${params.mangaId}`);
+export default async function MangaPage({ params }: { params: Promise<{ mangaId: string }>}) {
+  redirect(`/manga/${(await params).mangaId}`);
 }

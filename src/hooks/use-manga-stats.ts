@@ -22,8 +22,8 @@ export function useMangaStats(url: string) {
         if (!res.ok) throw new Error(json.message ?? 'Failed to fetch manga stats');
 
         setData(json);
-      } catch (err: any) {
-        setError(err.message ?? 'Unknown error');
+      } catch (err: unknown) {
+        setError(err instanceof Error ? err.message : 'Unknown error');
         setData(null);
       } finally {
         setLoading(false);

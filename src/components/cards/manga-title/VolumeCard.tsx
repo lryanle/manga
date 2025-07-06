@@ -66,7 +66,7 @@ export default function VolumeCard({ volume, manga, loading, rank, volumes }: Pr
             </div>
             <CardContent className="px-0 pt-4">
               <div className="flex flex-wrap gap-3">
-                {volume.chapters.map((chapter: any) => (
+                {volume.chapters.map(chapter => (
                   <ChapterCard key={chapter.id} chapter={chapter} manga={manga} />
                 ))}
               </div>

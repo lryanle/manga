@@ -6,7 +6,7 @@
     "dev": "concurrently \"npm run next-dev\" \"npm run python-build\"",
     "next-dev": "next dev --turbopack",
     "python-build": "pip3 install -r requirements.txt && python3 scraper/jjk-scraper.py",
-    "build": "next build",
+    "build": "concurrently \"next build\" \"npm run python-build\"",
     "start": "next start",
     "lint": "next lint"
   },

@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 "use client";
 
 import { Badge } from "@/components/ui/badge";
@@ -15,7 +16,7 @@ type TitleCardProps = {
 };
 
 export default function TitleCard({ manga }: TitleCardProps) {
-  const { data, loading, error } = useMangaStats(manga.mal_url);
+  const { data, loading } = useMangaStats(manga.mal_url);
   const { score, members, rank, popularity, status, volumes, chapters, published, tags } = data ?? ({} as MALStats);
 
   return (

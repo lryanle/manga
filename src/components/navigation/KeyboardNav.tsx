@@ -9,12 +9,6 @@ interface Props {
   max?: number;
 }
 
-/**
- * Adds a single global keydown listener; navigates to
- * /{current - 1} on ← and /{current + 1} on →.
- * Because we call router.push(), Next.js performs an RSC navigation
- * and the next page is **fully server-rendered** before hydration.
- */
 export default function KeyboardNav({ current, min = 0, max }: Props) {
   const router = useRouter();
 

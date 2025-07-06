@@ -1,20 +1,19 @@
+/* eslint-disable @next/next/no-img-element */
 "use client";
 
-import Link from "next/link";
-import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
-import { ArrowLeft, Star, Flame, Hash } from "lucide-react";
+import { Star, Flame, Hash } from "lucide-react";
 import { notFound } from "next/navigation";
 import mangaData from "@/constants/config.json";
 import { useMangaStats } from "@/hooks/use-manga-stats";
 import { MALStats } from "@/types/card";
-import { Usable, use } from "react";
+import { use } from "react";
 import { Skeleton } from "@/components/ui/skeleton";
 import VolumeCard from "@/components/cards/manga-title/VolumeCard";
 import { Tooltip, TooltipContent, TooltipTrigger } from "@/components/ui/tooltip";
 
 interface PageProps {
-	params: Usable<{ mangaId: string; }>;
+	params: Promise<{ mangaId: string; }>;
 }
 
 export default function MangaPage({ params }: PageProps) {
