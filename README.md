@@ -1,36 +1,137 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Manga Reader
 
-## Getting Started
+A personal modern responsive web application for reading manga.
 
-First, run the development server:
+## 📚 Library
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+- Jujutsu Kaisen chapters 0-272
+
+## ⚙️ Features
+
+- **Database-less Design**: Add a scraper to download manga chapter images during build time
+- **Tidy UI**: Modern responsive interface
+- **Reading Features**:
+  - Progress tracking bar
+  - Fullscreen reading mode
+  - Easy chapter navigation
+  - Manga volume organization
+
+## 🏁 Getting Started
+
+### Prerequisites
+
+- Node.js 18.0.0 or later
+- npm, yarn, pnpm, or bun
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/lryanle/manga.git
+   cd manga
+   ```
+
+2. Install dependencies:
+   ```bash
+   npm install
+   # or
+   yarn
+   # or
+   pnpm install
+   # or
+   bun install
+   ```
+
+3. Start the development server:
+   ```bash
+   npm run dev
+   # or
+   yarn dev
+   # or
+   pnpm dev
+   # or
+   bun dev
+   ```
+
+4. Open [http://localhost:3000](http://localhost:3000) with your browser to start reading!
+
+## 🛠️ Project Structure
+
+```
+/
+├── public/                  # Static assets
+│   ├── cover/               # Logo and volume + chapter cover images
+│   │   └── jjk/             # JJK covers
+│   └── manga/               # Manga chapter images
+│   │   └── jjk/             # JJK manga pages
+├── scraper/                 # Python scraper for manga content
+│   └── jjk-scraper.py       # JJK scraper script
+├── src/
+│   ├── app/                 # Next.js App Router
+│   ├── components/          # React components
+│   │   ├── cards/           # Manga and chapter cards
+│   │   ├── navigation/      # Navigation components
+│   │   └── ui/              # UI components
+│   ├── constants/           # Configuration files
+│   └── hooks/               # Custom React hooks
+└── ...config files
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 📥 Content Scraping
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+The project includes a Python scraper that downloads manga chapters from online sources:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+1. Navigate to the scraper directory:
+   ```bash
+   cd scraper
+   ```
 
-## Learn More
+2. Install Python dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-To learn more about Next.js, take a look at the following resources:
+3. Run the scraper:
+   ```bash
+   python script.py
+   ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+The script will download all chapters to the `/public/manga/jjk` directory.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🔧 Configuration
 
-## Deploy on Vercel
+Manga configuration is stored in `src/constants/config.json` with the following structure:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```json
+[
+  {
+    "id": "jjk",
+    "title": "Jujutsu Kaisen",
+    "coverArt": "/cover/jjk/splash.jpg",
+    "logo": "/cover/jjk/logo.png",
+    "volumes": [
+      {
+        "id": 1,
+        "title": "Ryomen Sukuna",
+        "coverArt": "/cover/jjk/v1.webp",
+        "chapters": [
+          {
+            "id": 1,
+            "title": "Ryomen Sukuna"
+          },
+          ...
+        ]
+      },
+      ...
+    ]
+  }
+]
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 📜 License
+
+This project is for educational purposes only. All Jujutsu Kaisen content is the property of Gege Akutami and Shueisha.
+
+---
+
+Built with ❤️ by @lryanle
